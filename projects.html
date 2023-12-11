@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Projects - Indeets Architect</title>
+    <meta name="description" content="Indeets Architect" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Size CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Slick CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- Font Awesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/b0e7cb6d16.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <div id="home" class="header-container">
+        <div class="header-logo-container">
+          <img class="header-logo" src="images/logo.jpg" />
+        </div>
+        <div id="menuOpen" class="menu-open-btn" onclick="openMenu()">
+          <img width="32" src="./images/menu_open.svg" />
+        </div>
+        <div id="menuClose" class="menu-close-btn" onclick="closeMenu()">
+          <img width="32" src="./images/menu_close.svg" />
+        </div>
+        <div id="sideNav" class="navigation-menu">
+          <span class="navigation-link me-4">Home</span>
+          <span class="navigation-link me-4">Practice</span>
+          <span class="navigation-link me-4">Projects</span>
+          <span class="navigation-link me-4">Contact</span>
+          <span class="navigation-link">Downloads</span>
+        </div>
+        <div class="mobile-d-none"></div>
+      </div>
+
+      <div class="projects-container">
+        <div
+          class="d-flex flex-column align-items-center justify-content-center"
+        >
+          <div class="projects-divider"></div>
+          <span class="projects-heading mb-2">Our Projects</span>
+          <span class="projects-subheading"
+            >“The most beautiful house in the world is the one that you build
+            for yourself.” – Witold Rybzynski</span
+          >
+          <div
+            class="d-flex align-items-center justify-content-center featured-links-row-mobile mt-5"
+          >
+            <span
+              id="allProjects"
+              class="projects-link projects-link-active me-4"
+              onclick="projectsLinkClick(1)"
+              >All</span
+            >
+            <span
+              id="residentialProjects"
+              class="projects-link me-4"
+              onclick="projectsLinkClick(2)"
+              >Residential</span
+            >
+            <span
+              id="commercialProjects"
+              class="projects-link me-4"
+              onclick="projectsLinkClick(3)"
+              >Commercial</span
+            >
+            <span
+              id="specialProjects"
+              class="projects-link me-4"
+              onclick="projectsLinkClick(4)"
+              >Special</span
+            >
+            <span
+              id="interiorProjects"
+              class="projects-link"
+              onclick="projectsLinkClick(5)"
+              >Interior</span
+            >
+          </div>
+        </div>
+
+        <div class="projects-grid active-projects-grid" id="allProjectsGrid">
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_1.jpg" />
+            <span class="projects-card-heading"><a href="./sangawasa.html">Sangawasa</a></span>
+            <span class="projects-card-subheading">Special</span>
+          </div>
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_2.jpg" />
+            <span class="projects-card-heading"><a href="./magalwewa.html">Magalwewa Hideout</a></span>
+            <span class="projects-card-subheading">Commercial</span>
+          </div>
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_3.jpg" />
+            <span class="projects-card-heading"><a href="./hilltop.html">Hill top house</a></span>
+            <span class="projects-card-subheading">Residential</span>
+          </div>
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_4.jpg" />
+            <span class="projects-card-heading"
+              ><a href="./cargo.html">Global Cargo Logistic Interior</a></span
+            >
+            <span class="projects-card-subheading">Interior</span>
+          </div>
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_5.jpg" />
+            <span class="projects-card-heading"><a href="./tropical.html">Tropical Conversion</a></span>
+            <span class="projects-card-subheading">Interior</span>
+          </div>
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_6.jpg" />
+            <span class="projects-card-heading"><a href="./budget.html">Budget House</a></span>
+            <span class="projects-card-subheading">Residential</span>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="residentialProjectsGrid">
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_3.jpg" />
+            <span class="projects-card-heading"><a href="./hilltop.html">Hill top house</a></span>
+            <span class="projects-card-subheading">Residential</span>
+          </div>
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_6.jpg" />
+            <span class="projects-card-heading"><a href="./budget.html">Budget House</a></span>
+            <span class="projects-card-subheading">Residential</span>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="commercialProjectsGrid">
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_2.jpg" />
+            <span class="projects-card-heading"><a href="./magalwewa.html">Magalwewa Hideout</a></span>
+            <span class="projects-card-subheading">Commercial</span>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="specialProjectsGrid">
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_1.jpg" />
+            <span class="projects-card-heading"><a href="./sangawasa.html">Sangawasa</a></span>
+            <span class="projects-card-subheading">Special</span>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="interiorProjectsGrid">
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_4.jpg" />
+            <span class="projects-card-heading"
+              ><a href="./cargo.html">Global Cargo Logistic Interior</a></span
+            >
+            <span class="projects-card-subheading">Interior</span>
+          </div>
+          <div class="d-flex flex-column">
+            <img class="projects-image" src="./images/project_5.jpg" />
+            <span class="projects-card-heading"><a href="./tropical.html">Tropical Conversion</a></span>
+            <span class="projects-card-subheading">Interior</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="d-flex flex-column footer-mb-mobile">
+            <img class="footer-logo" src="./images/logo.png" />
+            <div class="d-flex align-items-center justify-content-start mb-4">
+              <i class="footer-social-media-icon fab fa-facebook-f me-4"></i>
+              <i class="footer-social-media-icon fab fa-instagram me-4"></i>
+              <i class="footer-social-media-icon fab fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="d-flex flex-column footer-mb-mobile">
+            <span class="footer-heading">Contact Us</span>
+            <span class="footer-details">+94 71 523 4584</span>
+            <span class="footer-details">indeetsarch@gmail.com</span>
+            <span class="footer-details">dthisula@gmail.com</span>
+            <span class="footer-details">851C, Vajira Uyana, Ketagewatta,</span>
+            <span class="footer-details">Ragama, Sri Lanka</span>
+          </div>
+          <div
+            class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile"
+          >
+            <span class="footer-link">Home</span>
+            <span class="footer-link">Practice</span>
+            <span class="footer-link">Projects</span>
+            <span class="footer-link">Contact Us</span>
+            <span class="footer-link">Downloads</span>
+          </div>
+        </div>
+        <div class="horizontal-divider"></div>
+        <div class="copyright-row">
+          <span class="footer-details"
+            >©
+            <script type="text/javascript">
+              document.write(new Date().getFullYear());
+            </script>
+            Indeets Architect Pvt. Ltd. All rights reserved.</span
+          >
+        </div>
+      </div>
+
+      <div
+        id="scrollToTopBtn"
+        class="scroll-to-top-btn"
+        onClick="document.getElementById('home').scrollIntoView();"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </div>
+    </div>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"
+      integrity="sha256-UnTxHm+zKuDPLfufgEMnKGXDl6fEIjtM+n1Q6lL73ok="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Slick JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- Masonry JS -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- Main JS -->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
