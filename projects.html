@@ -40,6 +40,9 @@
       src="https://kit.fontawesome.com/b0e7cb6d16.js"
       crossorigin="anonymous"
     ></script>
+    
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="css/main.css" />
@@ -57,11 +60,13 @@
           <img width="32" src="./images/menu_close.svg" />
         </div>
         <div id="sideNav" class="navigation-menu">
-          <span class="navigation-link me-4">Home</span>
-          <span class="navigation-link me-4">Practice</span>
-          <span class="navigation-link me-4">Projects</span>
-          <span class="navigation-link me-4">Contact</span>
-          <span class="navigation-link">Downloads</span>
+          <span class="navigation-link me-4"><a href="./index.html">Home</a></span>
+          <span class="navigation-link me-4">
+            <a href="./practice.html">Practice</a></span>
+          <span class="navigation-link me-4"><a href="./projects.html">Projects</a></span>
+          <span class="navigation-link me-4"><a href="./team.html">Our Team</a></span>
+          <span class="navigation-link me-4"><a href="./contact.html">Contact Us</a></span>
+          <span class="navigation-link"><a href="./coming-soon.html">Downloads</a></span>
         </div>
         <div class="mobile-d-none"></div>
       </div>
@@ -114,34 +119,34 @@
 
         <div class="projects-grid active-projects-grid" id="allProjectsGrid">
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_1.jpg" />
+            <img class="projects-image" src="./images/project_1.jpg" onclick="goToSangawasa()" />
             <span class="projects-card-heading"><a href="./sangawasa.html">Sangawasa</a></span>
             <span class="projects-card-subheading">Special</span>
           </div>
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_2.jpg" />
+            <img class="projects-image" src="./images/project_2.jpg" onclick="goToMagalwewa()" />
             <span class="projects-card-heading"><a href="./magalwewa.html">Magalwewa Hideout</a></span>
             <span class="projects-card-subheading">Commercial</span>
           </div>
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_3.jpg" />
+            <img class="projects-image" src="./images/project_3.jpg" onclick="goToHilltop()" />
             <span class="projects-card-heading"><a href="./hilltop.html">Hill top house</a></span>
             <span class="projects-card-subheading">Residential</span>
           </div>
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_4.jpg" />
+            <img class="projects-image" src="./images/project_4.jpg" onclick="goToCargo()" />
             <span class="projects-card-heading"
               ><a href="./cargo.html">Global Cargo Logistic Interior</a></span
             >
             <span class="projects-card-subheading">Interior</span>
           </div>
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_5.jpg" />
+            <img class="projects-image" src="./images/project_5.jpg" onclick="goToTropical()" />
             <span class="projects-card-heading"><a href="./tropical.html">Tropical Conversion</a></span>
             <span class="projects-card-subheading">Interior</span>
           </div>
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_6.jpg" />
+            <img class="projects-image" src="./images/project_6.jpg" onclick="goToBudget()" />
             <span class="projects-card-heading"><a href="./budget.html">Budget House</a></span>
             <span class="projects-card-subheading">Residential</span>
           </div>
@@ -149,12 +154,12 @@
 
         <div class="projects-grid" id="residentialProjectsGrid">
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_3.jpg" />
+            <img class="projects-image" src="./images/project_3.jpg" onclick="goToHilltop()" />
             <span class="projects-card-heading"><a href="./hilltop.html">Hill top house</a></span>
             <span class="projects-card-subheading">Residential</span>
           </div>
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_6.jpg" />
+            <img class="projects-image" src="./images/project_6.jpg" onclick="goToBudget()" />
             <span class="projects-card-heading"><a href="./budget.html">Budget House</a></span>
             <span class="projects-card-subheading">Residential</span>
           </div>
@@ -162,7 +167,7 @@
 
         <div class="projects-grid" id="commercialProjectsGrid">
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_2.jpg" />
+            <img class="projects-image" src="./images/project_2.jpg" onclick="goToMagalwewa()" />
             <span class="projects-card-heading"><a href="./magalwewa.html">Magalwewa Hideout</a></span>
             <span class="projects-card-subheading">Commercial</span>
           </div>
@@ -170,7 +175,7 @@
 
         <div class="projects-grid" id="specialProjectsGrid">
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_1.jpg" />
+            <img class="projects-image" src="./images/project_1.jpg" onclick="goToSangawasa()" />
             <span class="projects-card-heading"><a href="./sangawasa.html">Sangawasa</a></span>
             <span class="projects-card-subheading">Special</span>
           </div>
@@ -178,14 +183,14 @@
 
         <div class="projects-grid" id="interiorProjectsGrid">
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_4.jpg" />
+            <img class="projects-image" src="./images/project_4.jpg" onclick="goToCargo()" />
             <span class="projects-card-heading"
               ><a href="./cargo.html">Global Cargo Logistic Interior</a></span
             >
             <span class="projects-card-subheading">Interior</span>
           </div>
           <div class="d-flex flex-column">
-            <img class="projects-image" src="./images/project_5.jpg" />
+            <img class="projects-image" src="./images/project_5.jpg" onclick="goToTropical()" />
             <span class="projects-card-heading"><a href="./tropical.html">Tropical Conversion</a></span>
             <span class="projects-card-subheading">Interior</span>
           </div>
@@ -197,9 +202,9 @@
           <div class="d-flex flex-column footer-mb-mobile">
             <img class="footer-logo" src="./images/logo.png" />
             <div class="d-flex align-items-center justify-content-start mb-4">
-              <i class="footer-social-media-icon fab fa-facebook-f me-4"></i>
-              <i class="footer-social-media-icon fab fa-instagram me-4"></i>
-              <i class="footer-social-media-icon fab fa-linkedin-in"></i>
+              <i class="footer-social-media-icon fab fa-facebook-f me-4" onclick="goToFbPage()"></i>
+              <i class="footer-social-media-icon fab fa-instagram me-4" onclick="goToInstaPage()"></i>
+              <i class="footer-social-media-icon fab fa-linkedin-in" onclick="goToLinkedinPage()"></i>
             </div>
           </div>
           <div class="d-flex flex-column footer-mb-mobile">
@@ -213,11 +218,12 @@
           <div
             class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile"
           >
-            <span class="footer-link">Home</span>
-            <span class="footer-link">Practice</span>
-            <span class="footer-link">Projects</span>
-            <span class="footer-link">Contact Us</span>
-            <span class="footer-link">Downloads</span>
+            <span class="footer-link"><a href="./index.html">Home</a></span>
+            <span class="footer-link"><a href="./practice.html">Practice</a></span>
+            <span class="footer-link"><a href="./projects.html">Projects</a></span>
+            <span class="footer-link"><a href="./team.html">Our Team</a></span>
+            <span class="footer-link"><a href="./contact.html">Contact Us</a></span>
+            <span class="footer-link"><a href="./coming-soon.html">Downloads</a></span>
           </div>
         </div>
         <div class="horizontal-divider"></div>
@@ -268,6 +274,9 @@
 
     <!-- Masonry JS -->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    
+    <!-- Magnific Popup core JS file -->
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 
     <!-- Main JS -->
     <script type="text/javascript" src="js/main.js"></script>

@@ -41,6 +41,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -57,11 +60,22 @@
           <img width="32" src="./images/menu_close.svg" />
         </div>
         <div id="sideNav" class="navigation-menu">
-          <span class="navigation-link me-4">Home</span>
-          <span class="navigation-link me-4">Practice</span>
-          <span class="navigation-link me-4">Projects</span>
-          <span class="navigation-link me-4">Contact</span>
-          <span class="navigation-link">Downloads</span>
+          <span class="navigation-link me-4"
+            ><a href="./index.html">Home</a></span
+          >
+          <span class="navigation-link me-4">
+            <a href="./practice.html">Practice</a></span
+          >
+          <span class="navigation-link me-4"
+            ><a href="./projects.html">Projects</a></span
+          >
+          <span class="navigation-link me-4"><a href="./team.html">Our Team</a></span>
+          <span class="navigation-link me-4"
+            ><a href="./contact.html">Contact Us</a></span
+          >
+          <span class="navigation-link"
+            ><a href="./coming-soon.html">Downloads</a></span
+          >
         </div>
         <div class="mobile-d-none"></div>
       </div>
@@ -162,25 +176,69 @@
             <div class="d-flex align-items-center flex-wrap mb-3">
               <span class="project-detail-content-bold">Share</span>
               <div class="project-detail-social-media-container">
-                <a href="https://www.facebook.com/share.php?u=www.google.com" target="_blank"><i class="project-detail-social-media-icon fab fa-facebook-f me-4 ms-2"></i></a>
-                <a href="https://www.instagram.com/?url=https://www.google.com/" target="_blank"><i class="project-detail-social-media-icon fab fa-instagram me-4"></i></a>
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.google.com/&title=Google&summary=google.com&source=Google" target="_blank"><i class="project-detail-social-media-icon fab fa-linkedin-in"></i></a>
+                <a
+                  href="https://www.facebook.com/share.php?u=www.google.com"
+                  target="_blank"
+                  ><i
+                    class="project-detail-social-media-icon fab fa-facebook-f me-4 ms-2"
+                  ></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/?url=https://www.google.com/"
+                  target="_blank"
+                  ><i
+                    class="project-detail-social-media-icon fab fa-instagram me-4"
+                  ></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.google.com/&title=Google&summary=google.com&source=Google"
+                  target="_blank"
+                  ><i
+                    class="project-detail-social-media-icon fab fa-linkedin-in"
+                  ></i
+                ></a>
               </div>
             </div>
           </div>
           <div class="project-detail-gallery-container">
-              <img class="project-detail-img" src="./images/sangawasa/sangawasa_1.jpg" />
-              <img class="project-detail-img" src="./images/sangawasa/sangawasa_2.jpg" />
-              <img class="project-detail-img" src="./images/sangawasa/sangawasa_3.jpg" />
-              <img class="project-detail-img" src="./images/sangawasa/sangawasa_4.jpg" />
-          <img class="project-detail-img" src="./images/sangawasa/sangawasa_5.jpg" />
-          <img class="project-detail-img" src="./images/sangawasa/sangawasa_6.jpg" />
-          <img class="project-detail-img" src="./images/sangawasa/sangawasa_7.jpg" />
-          <img class="project-detail-img" src="./images/sangawasa/sangawasa_8.jpg" />
-          <img class="project-detail-img" src="./images/sangawasa/sangawasa_9.jpg" />
-            </div>
+            <img id="open-sangawasa-popup-one"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_1.jpg"
+            />
+            <img id="open-sangawasa-popup-two"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_2.jpg"
+            />
+            <img id="open-sangawasa-popup-three"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_3.jpg"
+            />
+            <img id="open-sangawasa-popup-four"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_4.jpg"
+            />
+            <img id="open-sangawasa-popup-five"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_5.jpg"
+            />
+            <img id="open-sangawasa-popup-six"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_6.jpg"
+            />
+            <img id="open-sangawasa-popup-seven"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_7.jpg"
+            />
+            <img id="open-sangawasa-popup-eight"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_8.jpg"
+            />
+            <img id="open-sangawasa-popup-nine"
+              class="project-detail-img"
+              src="./images/sangawasa/sangawasa_9.jpg"
+            />
           </div>
-         
+        </div>
       </div>
 
       <div class="footer-container">
@@ -188,9 +246,18 @@
           <div class="d-flex flex-column footer-mb-mobile">
             <img class="footer-logo" src="./images/logo.png" />
             <div class="d-flex align-items-center justify-content-start mb-4">
-              <i class="footer-social-media-icon fab fa-facebook-f me-4"></i>
-              <i class="footer-social-media-icon fab fa-instagram me-4"></i>
-              <i class="footer-social-media-icon fab fa-linkedin-in"></i>
+              <i
+                class="footer-social-media-icon fab fa-facebook-f me-4"
+                onclick="goToFbPage()"
+              ></i>
+              <i
+                class="footer-social-media-icon fab fa-instagram me-4"
+                onclick="goToInstaPage()"
+              ></i>
+              <i
+                class="footer-social-media-icon fab fa-linkedin-in"
+                onclick="goToLinkedinPage()"
+              ></i>
             </div>
           </div>
           <div class="d-flex flex-column footer-mb-mobile">
@@ -204,11 +271,20 @@
           <div
             class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile"
           >
-            <span class="footer-link">Home</span>
-            <span class="footer-link">Practice</span>
-            <span class="footer-link">Projects</span>
-            <span class="footer-link">Contact Us</span>
-            <span class="footer-link">Downloads</span>
+            <span class="footer-link"><a href="./index.html">Home</a></span>
+            <span class="footer-link"
+              ><a href="./practice.html">Practice</a></span
+            >
+            <span class="footer-link"
+              ><a href="./projects.html">Projects</a></span
+            >
+            <span class="footer-link"><a href="./team.html">Our Team</a></span>
+            <span class="footer-link"
+              ><a href="./contact.html">Contact Us</a></span
+            >
+            <span class="footer-link"
+              ><a href="./coming-soon.html">Downloads</a></span
+            >
           </div>
         </div>
         <div class="horizontal-divider"></div>
@@ -259,6 +335,9 @@
 
     <!-- Masonry JS -->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 
     <!-- Main JS -->
     <script type="text/javascript" src="js/main.js"></script>

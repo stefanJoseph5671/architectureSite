@@ -37,7 +37,1532 @@ $(document).ready(function () {
     itemSelector: '.grid-item',
     columnWidth: 200
   });
+
+  $('#open-sangawasa-popup-one').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-sangawasa-popup-two').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-sangawasa-popup-three').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-sangawasa-popup-four').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-sangawasa-popup-five').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-sangawasa-popup-six').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-sangawasa-popup-seven').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-sangawasa-popup-eight').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-sangawasa-popup-nine').magnificPopup({
+    items: [
+      {
+        src: './images/sangawasa/sangawasa_9.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_1.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_2.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_3.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_4.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_5.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_6.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_7.jpg'
+      },
+      {
+        src: './images/sangawasa/sangawasa_8.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-magalwewa-popup-one').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-magalwewa-popup-two').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-magalwewa-popup-three').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-magalwewa-popup-four').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-magalwewa-popup-five').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-magalwewa-popup-six').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-magalwewa-popup-seven').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-magalwewa-popup-eight').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-magalwewa-popup-nine').magnificPopup({
+    items: [
+      {
+        src: './images/magalwewa/magalwewa_9.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_1.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_2.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_3.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_4.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_5.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_6.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_7.jpg'
+      },
+      {
+        src: './images/magalwewa/magalwewa_8.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+    
+  $('#open-hilltop-popup-one').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-hilltop-popup-two').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-hilltop-popup-three').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-hilltop-popup-four').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-hilltop-popup-five').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-hilltop-popup-six').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-hilltop-popup-seven').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-hilltop-popup-eight').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-hilltop-popup-nine').magnificPopup({
+    items: [
+      {
+        src: './images/hilltop/hilltop_9.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_1.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_2.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_3.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_4.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_5.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_6.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_7.jpg'
+      },
+      {
+        src: './images/hilltop/hilltop_8.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+      
+  $('#open-cargo-popup-one').magnificPopup({
+    items: [
+      {
+        src: './images/cargo/cargo_1.jpg'
+      },
+      {
+        src: './images/cargo/cargo_2.jpg'
+      },
+      {
+        src: './images/cargo/cargo_3.jpg'
+      },
+      {
+        src: './images/cargo/cargo_4.jpg'
+      },
+      {
+        src: './images/cargo/cargo_5.jpg'
+      },
+      {
+        src: './images/cargo/cargo_6.jpg'
+      },
+      {
+        src: './images/cargo/cargo_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-cargo-popup-two').magnificPopup({
+    items: [
+      {
+        src: './images/cargo/cargo_2.jpg'
+      },
+      {
+        src: './images/cargo/cargo_1.jpg'
+      },
+      {
+        src: './images/cargo/cargo_3.jpg'
+      },
+      {
+        src: './images/cargo/cargo_4.jpg'
+      },
+      {
+        src: './images/cargo/cargo_5.jpg'
+      },
+      {
+        src: './images/cargo/cargo_6.jpg'
+      },
+      {
+        src: './images/cargo/cargo_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-cargo-popup-three').magnificPopup({
+    items: [
+      {
+        src: './images/cargo/cargo_3.jpg'
+      },
+      {
+        src: './images/cargo/cargo_1.jpg'
+      },
+      {
+        src: './images/cargo/cargo_2.jpg'
+      },
+      {
+        src: './images/cargo/cargo_4.jpg'
+      },
+      {
+        src: './images/cargo/cargo_5.jpg'
+      },
+      {
+        src: './images/cargo/cargo_6.jpg'
+      },
+      {
+        src: './images/cargo/cargo_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-cargo-popup-four').magnificPopup({
+    items: [
+      {
+        src: './images/cargo/cargo_4.jpg'
+      },
+      {
+        src: './images/cargo/cargo_1.jpg'
+      },
+      {
+        src: './images/cargo/cargo_2.jpg'
+      },
+      {
+        src: './images/cargo/cargo_3.jpg'
+      },
+      {
+        src: './images/cargo/cargo_5.jpg'
+      },
+      {
+        src: './images/cargo/cargo_6.jpg'
+      },
+      {
+        src: './images/cargo/cargo_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-cargo-popup-five').magnificPopup({
+    items: [
+      {
+        src: './images/cargo/cargo_5.jpg'
+      },
+      {
+        src: './images/cargo/cargo_1.jpg'
+      },
+      {
+        src: './images/cargo/cargo_2.jpg'
+      },
+      {
+        src: './images/cargo/cargo_3.jpg'
+      },
+      {
+        src: './images/cargo/cargo_4.jpg'
+      },
+      {
+        src: './images/cargo/cargo_6.jpg'
+      },
+      {
+        src: './images/cargo/cargo_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-cargo-popup-six').magnificPopup({
+    items: [
+      {
+        src: './images/cargo/cargo_6.jpg'
+      },
+      {
+        src: './images/cargo/cargo_1.jpg'
+      },
+      {
+        src: './images/cargo/cargo_2.jpg'
+      },
+      {
+        src: './images/cargo/cargo_3.jpg'
+      },
+      {
+        src: './images/cargo/cargo_4.jpg'
+      },
+      {
+        src: './images/cargo/cargo_5.jpg'
+      },
+      {
+        src: './images/cargo/cargo_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-cargo-popup-seven').magnificPopup({
+    items: [
+      {
+        src: './images/cargo/cargo_7.jpg'
+      },
+      {
+        src: './images/cargo/cargo_1.jpg'
+      },
+      {
+        src: './images/cargo/cargo_2.jpg'
+      },
+      {
+        src: './images/cargo/cargo_3.jpg'
+      },
+      {
+        src: './images/cargo/cargo_4.jpg'
+      },
+      {
+        src: './images/cargo/cargo_5.jpg'
+      },
+      {
+        src: './images/cargo/cargo_6.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+       
+  $('#open-tropical-popup-one').magnificPopup({
+    items: [
+      {
+        src: './images/tropical/tropical_1.jpg'
+      },
+      {
+        src: './images/tropical/tropical_2.jpg'
+      },
+      {
+        src: './images/tropical/tropical_3.jpg'
+      },
+      {
+        src: './images/tropical/tropical_4.jpg'
+      },
+      {
+        src: './images/tropical/tropical_5.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-tropical-popup-two').magnificPopup({
+    items: [
+      {
+        src: './images/tropical/tropical_2.jpg'
+      },
+      {
+        src: './images/tropical/tropical_1.jpg'
+      },
+      {
+        src: './images/tropical/tropical_3.jpg'
+      },
+      {
+        src: './images/tropical/tropical_4.jpg'
+      },
+      {
+        src: './images/tropical/tropical_5.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-tropical-popup-three').magnificPopup({
+    items: [
+      {
+        src: './images/tropical/tropical_3.jpg'
+      },
+      {
+        src: './images/tropical/tropical_1.jpg'
+      },
+      {
+        src: './images/tropical/tropical_2.jpg'
+      },
+      {
+        src: './images/tropical/tropical_4.jpg'
+      },
+      {
+        src: './images/tropical/tropical_5.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-tropical-popup-four').magnificPopup({
+    items: [
+      {
+        src: './images/tropical/tropical_4.jpg'
+      },
+      {
+        src: './images/tropical/tropical_1.jpg'
+      },
+      {
+        src: './images/tropical/tropical_2.jpg'
+      },
+      {
+        src: './images/tropical/tropical_3.jpg'
+      },
+      {
+        src: './images/tropical/tropical_5.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-tropical-popup-five').magnificPopup({
+    items: [
+      {
+        src: './images/tropical/tropical_5.jpg'
+      },
+      {
+        src: './images/tropical/tropical_1.jpg'
+      },
+      {
+        src: './images/tropical/tropical_2.jpg'
+      },
+      {
+        src: './images/tropical/tropical_3.jpg'
+      },
+      {
+        src: './images/tropical/tropical_4.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+      
+  $('#open-budget-popup-one').magnificPopup({
+    items: [
+      {
+        src: './images/budget/budget_1.jpg'
+      },
+      {
+        src: './images/budget/budget_2.jpg'
+      },
+      {
+        src: './images/budget/budget_3.jpg'
+      },
+      {
+        src: './images/budget/budget_4.jpg'
+      },
+      {
+        src: './images/budget/budget_5.jpg'
+      },
+      {
+        src: './images/budget/budget_6.jpg'
+      },
+      {
+        src: './images/budget/budget_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-budget-popup-two').magnificPopup({
+    items: [
+      {
+        src: './images/budget/budget_2.jpg'
+      },
+      {
+        src: './images/budget/budget_1.jpg'
+      },
+      {
+        src: './images/budget/budget_3.jpg'
+      },
+      {
+        src: './images/budget/budget_4.jpg'
+      },
+      {
+        src: './images/budget/budget_5.jpg'
+      },
+      {
+        src: './images/budget/budget_6.jpg'
+      },
+      {
+        src: './images/budget/budget_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-budget-popup-three').magnificPopup({
+    items: [
+      {
+        src: './images/budget/budget_3.jpg'
+      },
+      {
+        src: './images/budget/budget_1.jpg'
+      },
+      {
+        src: './images/budget/budget_2.jpg'
+      },
+      {
+        src: './images/budget/budget_4.jpg'
+      },
+      {
+        src: './images/budget/budget_5.jpg'
+      },
+      {
+        src: './images/budget/budget_6.jpg'
+      },
+      {
+        src: './images/budget/budget_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-budget-popup-four').magnificPopup({
+    items: [
+      {
+        src: './images/budget/budget_4.jpg'
+      },
+      {
+        src: './images/budget/budget_1.jpg'
+      },
+      {
+        src: './images/budget/budget_2.jpg'
+      },
+      {
+        src: './images/budget/budget_3.jpg'
+      },
+      {
+        src: './images/budget/budget_5.jpg'
+      },
+      {
+        src: './images/budget/budget_6.jpg'
+      },
+      {
+        src: './images/budget/budget_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-budget-popup-five').magnificPopup({
+    items: [
+      {
+        src: './images/budget/budget_5.jpg'
+      },
+      {
+        src: './images/budget/budget_1.jpg'
+      },
+      {
+        src: './images/budget/budget_2.jpg'
+      },
+      {
+        src: './images/budget/budget_3.jpg'
+      },
+      {
+        src: './images/budget/budget_4.jpg'
+      },
+      {
+        src: './images/budget/budget_6.jpg'
+      },
+      {
+        src: './images/budget/budget_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-budget-popup-six').magnificPopup({
+    items: [
+      {
+        src: './images/budget/budget_6.jpg'
+      },
+      {
+        src: './images/budget/budget_1.jpg'
+      },
+      {
+        src: './images/budget/budget_2.jpg'
+      },
+      {
+        src: './images/budget/budget_3.jpg'
+      },
+      {
+        src: './images/budget/budget_4.jpg'
+      },
+      {
+        src: './images/budget/budget_5.jpg'
+      },
+      {
+        src: './images/budget/budget_7.jpg'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
+  $('#open-budget-popup-seven').magnificPopup({
+    items: [
+      {
+        src: './images/budget/budget_7.jpg'
+      },
+      {
+        src: './images/budget/budget_1.jpg'
+      },
+      {
+        src: './images/budget/budget_2.jpg'
+      },
+      {
+        src: './images/budget/budget_3.jpg'
+      },
+      {
+        src: './images/budget/budget_4.jpg'
+      },
+      {
+        src: './images/budget/budget_5.jpg'
+      },
+      {
+        src: './images/budget/budget_6.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+  
 });
+
+function goToSlideOne() {
+  $('.slider-container').slick('slickGoTo', 0);
+}
+
+function goToSlideTwo() {
+  $('.slider-container').slick('slickGoTo', 1);
+}
+
+function goToSlideThree() {
+  $('.slider-container').slick('slickGoTo', 2);
+}
 
 scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
@@ -223,6 +1748,22 @@ function goToBudget() {
 
 function goToPractice() {
   window.location.href = "practice.html";
+}
+
+function goToProjects() {
+  window.location.href = "practice.html";
+}
+
+function goToFbPage() {
+  window.open("https://www.facebook.com/IndeetsArchitect/", "_blank");
+}
+
+function goToInstaPage() {
+  window.open("https://www.instagram.com/indeets_architect/", "_blank");
+}
+
+function goToLinkedinPage() {
+  window.open("https://www.linkedin.com/in/dahamthisula/", "_blank");
 }
 
 

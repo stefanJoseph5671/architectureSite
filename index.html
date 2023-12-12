@@ -40,6 +40,9 @@
       src="https://kit.fontawesome.com/b0e7cb6d16.js"
       crossorigin="anonymous"
     ></script>
+    
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="css/main.css" />
@@ -61,8 +64,9 @@
           <span class="navigation-link me-4">
             <a href="./practice.html">Practice</a></span>
           <span class="navigation-link me-4"><a href="./projects.html">Projects</a></span>
-          <span class="navigation-link me-4">Contact</span>
-          <span class="navigation-link">Downloads</span>
+          <span class="navigation-link me-4"><a href="./team.html">Our Team</a></span>
+          <span class="navigation-link me-4"><a href="./contact.html">Contact Us</a></span>
+          <span class="navigation-link"><a href="./coming-soon.html">Downloads</a></span>
         </div>
         <div class="mobile-d-none"></div>
       </div>
@@ -74,7 +78,7 @@
           >
             <span class="slider-header">Designing together,</span>
             <span class="slider-header mb-3">creating together.</span>
-            <div class="slider-btn">
+            <div class="slider-btn" onclick="goToProjects()">
               <span class="slider-btn-text">view project</span>
             </div>
           </div>
@@ -84,8 +88,8 @@
             <span id="slideOne" class="slider-number active-slide-number me-3"
               >01</span
             >
-            <span class="slider-number me-3">02</span>
-            <span class="slider-number">03</span>
+            <span class="slider-number me-3" onclick="goToSlideTwo()">02</span>
+            <span class="slider-number" onclick="goToSlideThree()">03</span>
           </div>
         </div>
         <div class="image-slider-container slider-two">
@@ -94,16 +98,16 @@
           >
             <span class="slider-header">Creating the future</span>
             <span class="slider-header mb-3">with clients</span>
-            <div class="slider-btn">
+            <div class="slider-btn" onclick="goToProjects()">
               <span class="slider-btn-text">view project</span>
             </div>
           </div>
           <div
             class="d-flex align-items-center justify-content-center slider-number-container"
           >
-            <span class="slider-number me-3">01</span>
+            <span class="slider-number me-3" onclick="goToSlideOne()">01</span>
             <span id="slideTwo" class="slider-number me-3">02</span>
-            <span class="slider-number">03</span>
+            <span class="slider-number" onclick="goToSlideThree()">03</span>
           </div>
         </div>
         <div class="image-slider-container slider-three">
@@ -112,15 +116,15 @@
           >
             <span class="slider-header">Design for Business</span>
             <span class="slider-header mb-3">Transformation</span>
-            <div class="slider-btn">
+            <div class="slider-btn" onclick="goToProjects()">
               <span class="slider-btn-text">view project</span>
             </div>
           </div>
           <div
             class="d-flex align-items-center justify-content-center slider-number-container"
           >
-            <span class="slider-number me-3">01</span>
-            <span class="slider-number me-3">02</span>
+            <span class="slider-number me-3" onclick="goToSlideOne()">01</span>
+            <span class="slider-number me-3" onclick="goToSlideThree()">02</span>
             <span id="slideThree" class="slider-number">03</span>
           </div>
         </div>
@@ -350,9 +354,9 @@
           <div class="d-flex flex-column footer-mb-mobile">
             <img class="footer-logo" src="./images/logo.png" />
             <div class="d-flex align-items-center justify-content-start mb-4">
-              <i class="footer-social-media-icon fab fa-facebook-f me-4"></i>
-              <i class="footer-social-media-icon fab fa-instagram me-4"></i>
-              <i class="footer-social-media-icon fab fa-linkedin-in"></i>
+              <i class="footer-social-media-icon fab fa-facebook-f me-4" onclick="goToFbPage()"></i>
+              <i class="footer-social-media-icon fab fa-instagram me-4" onclick="goToInstaPage()"></i>
+              <i class="footer-social-media-icon fab fa-linkedin-in" onclick="goToLinkedinPage()"></i>
             </div>
           </div>
           <div class="d-flex flex-column footer-mb-mobile">
@@ -366,11 +370,12 @@
           <div
             class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile"
           >
-            <span class="footer-link">Home</span>
-            <span class="footer-link">Practice</span>
-            <span class="footer-link">Projects</span>
-            <span class="footer-link">Contact Us</span>
-            <span class="footer-link">Downloads</span>
+            <span class="footer-link"><a href="./index.html">Home</a></span>
+            <span class="footer-link"><a href="./practice.html">Practice</a></span>
+            <span class="footer-link"><a href="./projects.html">Projects</a></span>
+            <span class="footer-link"><a href="./team.html">Our Team</a></span>
+            <span class="footer-link"><a href="./contact.html">Contact Us</a></span>
+            <span class="footer-link"><a href="./coming-soon.html">Downloads</a></span>
           </div>
         </div>
         <div class="horizontal-divider"></div>
@@ -421,6 +426,9 @@
 
     <!-- Masonry JS -->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    
+    <!-- Magnific Popup core JS file -->
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 
     <!-- Main JS -->
     <script type="text/javascript" src="js/main.js"></script>
