@@ -40,7 +40,7 @@
       src="https://kit.fontawesome.com/b0e7cb6d16.js"
       crossorigin="anonymous"
     ></script>
-    
+
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="css/magnific-popup.css" />
 
@@ -60,13 +60,24 @@
           <img width="32" src="./images/menu_close.svg" />
         </div>
         <div id="sideNav" class="navigation-menu">
-          <span class="navigation-link me-4"><a href="./index.html">Home</a></span>
+          <span class="navigation-link me-4"
+            ><a href="./index.html">Home</a></span
+          >
           <span class="navigation-link me-4">
-            <a href="./practice.html">Practice</a></span>
-          <span class="navigation-link me-4"><a href="./projects.html">Projects</a></span>
-          <span class="navigation-link me-4"><a href="./team.html">Our Team</a></span>
-          <span class="navigation-link me-4"><a href="./contact.html">Contact Us</a></span>
-          <span class="navigation-link"><a href="./coming-soon.html">Downloads</a></span>
+            <a href="./practice.html">Practice</a></span
+          >
+          <span class="navigation-link me-4"
+            ><a href="./projects.html">Projects</a></span
+          >
+          <span class="navigation-link me-4"
+            ><a href="./team.html">Our Team</a></span
+          >
+          <span class="navigation-link me-4"
+            ><a href="./contact.html">Contact Us</a></span
+          >
+          <span class="navigation-link"
+            ><a href="./coming-soon.html">Downloads</a></span
+          >
         </div>
         <div class="mobile-d-none"></div>
       </div>
@@ -124,7 +135,9 @@
             class="d-flex align-items-center justify-content-center slider-number-container"
           >
             <span class="slider-number me-3" onclick="goToSlideOne()">01</span>
-            <span class="slider-number me-3" onclick="goToSlideThree()">02</span>
+            <span class="slider-number me-3" onclick="goToSlideThree()"
+              >02</span
+            >
             <span id="slideThree" class="slider-number">03</span>
           </div>
         </div>
@@ -234,13 +247,19 @@
               </div>
             </div>
             <div class="featured-works-img all-projects-small-one">
-              <div class="featured-works-details h-100" onclick="goToSangawasa()">
+              <div
+                class="featured-works-details h-100"
+                onclick="goToSangawasa()"
+              >
                 <span class="featured-works-projects-subheading">Special</span>
                 <span class="featured-works-projects-heading">Sangawasa</span>
               </div>
             </div>
             <div class="featured-works-img all-projects-small-two">
-              <div class="featured-works-details h-100" onclick="goToMagalwewa()">
+              <div
+                class="featured-works-details h-100"
+                onclick="goToMagalwewa()"
+              >
                 <span class="featured-works-projects-subheading"
                   >Commercial</span
                 >
@@ -250,7 +269,10 @@
               </div>
             </div>
             <div class="featured-works-img all-projects-wide">
-              <div class="featured-works-details h-100" onclick="goToTropical()">
+              <div
+                class="featured-works-details h-100"
+                onclick="goToTropical()"
+              >
                 <span class="featured-works-projects-subheading">Interior</span>
                 <span class="featured-works-projects-heading"
                   >Tropical Conversion</span
@@ -304,7 +326,10 @@
 
           <div class="featured-works-grid" id="featuredCommercialGrid">
             <div class="featured-works-img commercial-wide">
-              <div class="featured-works-details h-100" onclick="goToMagalwewa()">
+              <div
+                class="featured-works-details h-100"
+                onclick="goToMagalwewa()"
+              >
                 <span class="featured-works-projects-subheading"
                   >Commercial</span
                 >
@@ -317,7 +342,10 @@
 
           <div class="featured-works-grid" id="featuredSpecialGrid">
             <div class="featured-works-img special-wide">
-              <div class="featured-works-details h-100" onclick="goToSangawasa()">
+              <div
+                class="featured-works-details h-100"
+                onclick="goToSangawasa()"
+              >
                 <span class="featured-works-projects-subheading">Special</span>
                 <span class="featured-works-projects-heading">Sangawasa</span>
               </div>
@@ -327,21 +355,70 @@
           <div class="featured-works-grid" id="featuredInteriorGrid">
             <div class="featured-works-img interior-normal-one">
               <div class="featured-works-details h-100" onclick="goToCargo()">
-                <span class="featured-works-projects-subheading"
-                  >Interior</span
-                >
+                <span class="featured-works-projects-subheading">Interior</span>
                 <span class="featured-works-projects-heading"
                   >Global Cargo Logistic Interior</span
                 >
               </div>
             </div>
             <div class="featured-works-img interior-normal-two">
-              <div class="featured-works-details h-100" onclick="goToTropical()">
-                <span class="featured-works-projects-subheading"
-                  >Interior</span
-                >
+              <div
+                class="featured-works-details h-100"
+                onclick="goToTropical()"
+              >
+                <span class="featured-works-projects-subheading">Interior</span>
                 <span class="featured-works-projects-heading"
                   >Tropical Conversion</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-container">
+        <div class="d-flex flex-column align-items-start align-items-center-mobile">
+          <div class="testimonial-divider"></div>
+          <span class="testimonial-heading mb-2">Testimonials</span>
+          <div
+            class="d-flex align-items-center justify-content-start flex-row-col-mobile"
+          >
+            <span class="testimonial-subheading"
+              >"People do not care how much you know until they know how much
+              you care." - Teddy Roosevelt</span
+            >
+          </div>
+          <div class="d-flex align-items-center justify-content-center">
+            <div class="testimonial-grid">
+              <div class="testimonial-card">
+                <img class="client-img" src="./images/client.svg" />
+                <span class="testimonial-name">Dushmantha Baranage</span>
+                <img class="star-rating" src="./images/stars.svg" />
+                <span class="testimonial-testimony"
+                  >"New unique modern design as per client requirements and
+                  budget."</span
+                >
+              </div>
+              <div class="testimonial-card">
+                <img class="client-img" src="./images/client.svg" />
+                <span class="testimonial-name"
+                  >Santhush Aravinda Dissanayake</span
+                >
+                <img class="star-rating" src="./images/stars.svg" />
+                <span class="testimonial-testimony"
+                  >"They design exactly what you want, maximum flexibility and
+                  patience with clients, very creative suggestions, utilizing
+                  the maximum land with attractive features, simple but elegant,
+                  giving maximum benefits to the client."</span
+                >
+              </div>
+              <div class="testimonial-card">
+                <img class="client-img" src="./images/client.svg" />
+                <span class="testimonial-name">Dushmantha Baranage</span>
+                <img class="star-rating" src="./images/stars.svg" />
+                <span class="testimonial-testimony"
+                  >"New unique modern design as per client requirements and
+                  budget."</span
                 >
               </div>
             </div>
@@ -354,9 +431,18 @@
           <div class="d-flex flex-column footer-mb-mobile">
             <img class="footer-logo" src="./images/logo.png" />
             <div class="d-flex align-items-center justify-content-start mb-4">
-              <i class="footer-social-media-icon fab fa-facebook-f me-4" onclick="goToFbPage()"></i>
-              <i class="footer-social-media-icon fab fa-instagram me-4" onclick="goToInstaPage()"></i>
-              <i class="footer-social-media-icon fab fa-linkedin-in" onclick="goToLinkedinPage()"></i>
+              <i
+                class="footer-social-media-icon fab fa-facebook-f me-4"
+                onclick="goToFbPage()"
+              ></i>
+              <i
+                class="footer-social-media-icon fab fa-instagram me-4"
+                onclick="goToInstaPage()"
+              ></i>
+              <i
+                class="footer-social-media-icon fab fa-linkedin-in"
+                onclick="goToLinkedinPage()"
+              ></i>
             </div>
           </div>
           <div class="d-flex flex-column footer-mb-mobile">
@@ -371,11 +457,19 @@
             class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile"
           >
             <span class="footer-link"><a href="./index.html">Home</a></span>
-            <span class="footer-link"><a href="./practice.html">Practice</a></span>
-            <span class="footer-link"><a href="./projects.html">Projects</a></span>
+            <span class="footer-link"
+              ><a href="./practice.html">Practice</a></span
+            >
+            <span class="footer-link"
+              ><a href="./projects.html">Projects</a></span
+            >
             <span class="footer-link"><a href="./team.html">Our Team</a></span>
-            <span class="footer-link"><a href="./contact.html">Contact Us</a></span>
-            <span class="footer-link"><a href="./coming-soon.html">Downloads</a></span>
+            <span class="footer-link"
+              ><a href="./contact.html">Contact Us</a></span
+            >
+            <span class="footer-link"
+              ><a href="./coming-soon.html">Downloads</a></span
+            >
           </div>
         </div>
         <div class="horizontal-divider"></div>
@@ -426,9 +520,12 @@
 
     <!-- Masonry JS -->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    
+
     <!-- Magnific Popup core JS file -->
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.magnific-popup.min.js"
+    ></script>
 
     <!-- Main JS -->
     <script type="text/javascript" src="js/main.js"></script>
