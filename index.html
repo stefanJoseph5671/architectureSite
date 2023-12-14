@@ -83,62 +83,82 @@
       </div>
 
       <div class="slider-container">
-        <div class="image-slider-container slider-one">
+        <div class="image-slider-bg">
           <div
-            class="d-flex flex-column align-items-center justify-content-center h-100"
+            id="imageSliderOne"
+            class="image-slider-container slider-one slide-in-right"
           >
-            <span class="slider-header">Designing together,</span>
-            <span class="slider-header mb-3">creating together.</span>
-            <div class="slider-btn" onclick="goToProjects()">
-              <span class="slider-btn-text">view project</span>
-            </div>
-          </div>
-          <div
-            class="d-flex align-items-center justify-content-center slider-number-container"
-          >
-            <span id="slideOne" class="slider-number active-slide-number me-3"
-              >01</span
+            <div
+              class="d-flex flex-column align-items-center justify-content-center h-100"
             >
-            <span class="slider-number me-3" onclick="goToSlideTwo()">02</span>
-            <span class="slider-number" onclick="goToSlideThree()">03</span>
+              <span class="slider-header">Designing together,</span>
+              <span class="slider-header mb-3">creating together.</span>
+              <div class="slider-btn" onclick="goToProjects()">
+                <span class="slider-btn-text">view project</span>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-center slider-number-container"
+            >
+              <span id="slideOne" class="slider-number active-slide-number me-3"
+                >01</span
+              >
+              <span class="slider-number me-3" onclick="goToSlideTwo()"
+                >02</span
+              >
+              <span class="slider-number" onclick="goToSlideThree()">03</span>
+            </div>
           </div>
         </div>
-        <div class="image-slider-container slider-two">
-          <div
-            class="d-flex flex-column align-items-start justify-content-center h-100 ms-5"
-          >
-            <span class="slider-header">Creating the future</span>
-            <span class="slider-header mb-3">with clients</span>
-            <div class="slider-btn" onclick="goToProjects()">
-              <span class="slider-btn-text">view project</span>
+
+        <div class="image-slider-bg">
+          <div id="imageSliderTwo" class="image-slider-container slider-two">
+            <div
+              class="d-flex flex-column align-items-start justify-content-center h-100 slider-content-ml"
+            >
+              <span class="slider-header">Creating the future</span>
+              <span class="slider-header mb-3">with clients</span>
+              <div class="slider-btn" onclick="goToProjects()">
+                <span class="slider-btn-text">view project</span>
+              </div>
             </div>
-          </div>
-          <div
-            class="d-flex align-items-center justify-content-center slider-number-container"
-          >
-            <span class="slider-number me-3" onclick="goToSlideOne()">01</span>
-            <span id="slideTwo" class="slider-number me-3">02</span>
-            <span class="slider-number" onclick="goToSlideThree()">03</span>
+            <div
+              class="d-flex align-items-center justify-content-center slider-number-container"
+            >
+              <span class="slider-number me-3" onclick="goToSlideOne()"
+                >01</span
+              >
+              <span id="slideTwo" class="slider-number me-3">02</span>
+              <span class="slider-number" onclick="goToSlideThree()">03</span>
+            </div>
           </div>
         </div>
-        <div class="image-slider-container slider-three">
+
+        <div class="image-slider-bg">
           <div
-            class="d-flex flex-column align-items-start justify-content-center h-100 ms-5"
+            id="imageSliderThree"
+            class="image-slider-container slider-three"
           >
-            <span class="slider-header">Design for Business</span>
-            <span class="slider-header mb-3">Transformation</span>
-            <div class="slider-btn" onclick="goToProjects()">
-              <span class="slider-btn-text">view project</span>
-            </div>
-          </div>
-          <div
-            class="d-flex align-items-center justify-content-center slider-number-container"
-          >
-            <span class="slider-number me-3" onclick="goToSlideOne()">01</span>
-            <span class="slider-number me-3" onclick="goToSlideThree()"
-              >02</span
+            <div
+              class="d-flex flex-column align-items-start justify-content-center h-100 slider-content-ml"
             >
-            <span id="slideThree" class="slider-number">03</span>
+              <span class="slider-header">Design for Business</span>
+              <span class="slider-header mb-3">Transformation</span>
+              <div class="slider-btn" onclick="goToProjects()">
+                <span class="slider-btn-text">view project</span>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-center slider-number-container"
+            >
+              <span class="slider-number me-3" onclick="goToSlideOne()"
+                >01</span
+              >
+              <span class="slider-number me-3" onclick="goToSlideThree()"
+                >02</span
+              >
+              <span id="slideThree" class="slider-number">03</span>
+            </div>
           </div>
         </div>
       </div>
@@ -377,7 +397,9 @@
       </div>
 
       <div class="testimonial-container">
-        <div class="d-flex flex-column align-items-start align-items-center-mobile">
+        <div
+          class="d-flex flex-column align-items-start align-items-center-mobile"
+        >
           <div class="testimonial-divider"></div>
           <span class="testimonial-heading mb-2">Testimonials</span>
           <div

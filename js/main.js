@@ -6,22 +6,31 @@ $(document).ready(function () {
     autoplaySpeed: 3000,
     infinite: true,
     fade: true,
-    cssEase: 'linear'
+    cssEase: 'ease-in-out'
   });
 
   $('.slider-container').on('afterChange', function (event, slick, currentSlide, nextSlide) {
     switch (currentSlide) {
       case 0:
+        document.getElementById("imageSliderTwo").classList.remove("slide-in-right");
+        document.getElementById("imageSliderThree").classList.remove("slide-in-right");
+        document.getElementById("imageSliderOne").classList.add("slide-in-right");
         document.getElementById("slideTwo").classList.remove("active-slide-number");
         document.getElementById("slideThree").classList.remove("active-slide-number");
         document.getElementById("slideOne").classList.add("active-slide-number");
         break;
       case 1:
+        document.getElementById("imageSliderOne").classList.remove("slide-in-right");
+        document.getElementById("imageSliderThree").classList.remove("slide-in-right");
+        document.getElementById("imageSliderTwo").classList.add("slide-in-right");
         document.getElementById("slideOne").classList.remove("active-slide-number");
         document.getElementById("slideThree").classList.remove("active-slide-number");
         document.getElementById("slideTwo").classList.add("active-slide-number");
         break;
       case 2:
+        document.getElementById("imageSliderTwo").classList.remove("slide-in-right");
+        document.getElementById("imageSliderOne").classList.remove("slide-in-right");
+        document.getElementById("imageSliderThree").classList.add("slide-in-right");
         document.getElementById("slideOne").classList.remove("active-slide-number");
         document.getElementById("slideTwo").classList.remove("active-slide-number");
         document.getElementById("slideThree").classList.add("active-slide-number");
