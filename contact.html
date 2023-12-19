@@ -40,7 +40,7 @@
       src="https://kit.fontawesome.com/b0e7cb6d16.js"
       crossorigin="anonymous"
     ></script>
-    
+
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="css/magnific-popup.css" />
 
@@ -49,7 +49,7 @@
   </head>
   <body>
     <div class="container-fluid p-0">
-      <div id="home" class="header-container">
+      <div id="home" class="header-inner-page-container">
         <div class="header-logo-container">
           <img class="header-logo" src="images/logo.jpg" />
         </div>
@@ -60,105 +60,179 @@
           <img width="32" src="./images/menu_close.svg" />
         </div>
         <div id="sideNav" class="navigation-menu">
-          <span class="navigation-link me-4"><a href="./index.html">Home</a></span>
+          <span class="navigation-link me-4"
+            ><a href="./index.html">Home</a></span
+          >
           <span class="navigation-link me-4">
-            <a href="./practice.html">Practice</a></span>
-          <span class="navigation-link me-4"><a href="./projects.html">Projects</a></span>
-          <span class="navigation-link me-4"><a href="./team.html">Our Team</a></span>
-          <span class="navigation-link me-4"><a href="./contact.html">Contact Us</a></span>
-          <span class="navigation-link"><a href="./coming-soon.html">Downloads</a></span>
+            <a href="./practice.html">About Us</a></span
+          >
+          <span class="navigation-link me-4"
+            ><a href="./projects.html">Projects</a></span
+          >
+          <span class="navigation-link me-4"
+            ><a href="./contact.html">Contact Us</a></span
+          >
+          <span class="navigation-link"
+            ><a href="./coming-soon.html">Downloads</a></span
+          >
         </div>
-        <div class="mobile-d-none"></div>
+      </div>
+
+      <div class="page-title-container">
+        <div class="page-title-row">
+          <div class="d-flex flex-column">
+            <span class="page-title">Contact Us</span>
+          </div>
+          <div class="d-flex align-items-center">
+            <span class="page-subtitle">Home</span>
+            <span class="page-subtitle mx-2">|</span>
+            <span class="page-subtitle">Contact Us</span>
+          </div>
+        </div>
       </div>
 
       <div class="contact-us-container">
-        <div
-          class="d-flex flex-column align-items-center justify-content-center"
-        >
-          <div class="contact-us-divider"></div>
-          <span class="contact-us-heading mb-2"
-            >“Let's Make It Together...”</span
-          >
-          <span class="contact-us-subheading"
-            >If you’re considering for an architectural solution for your
-            project, this form is the best way to reach us. INDEETS ARCHITECT
-            Pvt, Ltd is located on Ragama, Sri Lanka. We work with clients on
-            projects both near and far. To determine whether your project might
-            be a good fit for the studio and provide better and valid
-            information, please briefly describe the scope, timing, location and
-            other relevant details in the form and we’ll be in touch shortly to
-            review your project in detail.</span
-          >
-          <div class="contact-details-grid">
-            <div class="contact-details-container">
-              <span class="contact-details-title">Mobile</span>
-              <span class="contact-details-content">+94 71 523 4584</span>
-            </div>
-            <div class="contact-details-container">
-              <span class="contact-details-title">Email</span>
-              <span class="contact-details-content">indeetsarch@gmail.com</span>
-              <span class="contact-details-content">dthisula@gmail.com</span>
-            </div>
-            <div class="contact-details-container">
-              <span class="contact-details-title">Address</span>
-              <span class="contact-details-content"
-                >851C, Vajira Uyana, Ketagewatta, Ragama, Sri Lanka.</span
-              >
-            </div>
-          </div>
-          <div class="message-grid">
-            <div class="map-container">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.206229140869!2d79.91250957551576!3d6.984970617627697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f7fe3d82af09%3A0xec52e9e4920eb1a9!2sWajira%20Rd%2C%2011300!5e0!3m2!1sen!2slk!4v1702332888584!5m2!1sen!2slk"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 ps-0">
             <div class="message-container">
               <div class="contact-us-divider"></div>
               <span class="contact-us-heading mb-2">Send a message</span>
               <form>
                 <div class="row">
                   <div class="col-md-12 col-sm-12 mb-4">
-                    <textarea class="form-control" placeholder="Message (required)" rows="4"></textarea>
+                    <textarea
+                      class="form-control"
+                      placeholder="Message (required)"
+                      rows="4"
+                    ></textarea>
                   </div>
                   <div class="col-md-6 col-sm-12 mb-4">
-                    <input type="text" class="form-control" placeholder="First name (required)" aria-label="First name">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name (required)"
+                      aria-label="First name"
+                    />
                   </div>
                   <div class="col-md-6 col-sm-12 mb-4">
-                    <input type="text" class="form-control" placeholder="Last name (required)" aria-label="Last name">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name (required)"
+                      aria-label="Last name"
+                    />
                   </div>
                   <div class="col-md-6 col-sm-12 mb-4">
-                    <input type="text" class="form-control" placeholder="Contact Number (required)" aria-label="Mobile">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Contact Number (required)"
+                      aria-label="Mobile"
+                    />
                   </div>
                   <div class="col-md-6 col-sm-12 mb-4">
-                    <input type="email" class="form-control" placeholder="Email (required)" aria-label="Email">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email (required)"
+                      aria-label="Email"
+                    />
                   </div>
                 </div>
-                <div class="send-message-btn">
-                  Send Message
-                </div>
+                <div class="send-message-btn">Send Message</div>
               </form>
             </div>
+          </div>
+          <div class="col-md-6 col-sm-12 pe-0">
+            <div
+              class="d-flex flex-column align-items-start justify-content-start"
+            >
+              <span class="contact-us-heading mb-2"
+                >“Let's Make It Together...”</span
+              >
+              <span class="contact-us-subheading"
+                >If you’re considering for an architectural solution for your
+                project, this form is the best way to reach us. INDEETS
+                ARCHITECT Pvt, Ltd is located on Ragama, Sri Lanka. We work with
+                clients on projects both near and far. To determine whether your
+                project might be a good fit for the studio and provide better
+                and valid information, please briefly describe the scope,
+                timing, location and other relevant details in the form and
+                we’ll be in touch shortly to review your project in
+                detail.</span
+              >
+              <div class="contact-details-container mt-4 mb-3">
+                <span class="contact-details-title">Mobile</span>
+                <span class="contact-details-content">+94 71 523 4584</span>
+              </div>
+              <div class="contact-details-container mb-3">
+                <span class="contact-details-title">Email</span>
+                <span class="contact-details-content"
+                  >indeetsarch@gmail.com</span
+                >
+                <span class="contact-details-content">dthisula@gmail.com</span>
+              </div>
+              <div class="contact-details-container mb-4">
+                <span class="contact-details-title">Address</span>
+                <span class="contact-details-content"
+                  >851C, Vajira Uyana, Ketagewatta, Ragama, Sri Lanka.</span
+                >
+              </div>
+              <div class="contact-social-media-container">
+                <i
+                  class="contact-social-media-icon fab fa-facebook-f me-4"
+                  onclick="goToFbPage()"
+                ></i>
+                <i
+                  class="contact-social-media-icon fab fa-instagram me-4"
+                  onclick="goToInstaPage()"
+                ></i>
+                <i
+                  class="contact-social-media-icon fab fa-linkedin-in"
+                  onclick="goToLinkedinPage()"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-12 px-0">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.206229140869!2d79.91250957551576!3d6.984970617627697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f7fe3d82af09%3A0xec52e9e4920eb1a9!2sWajira%20Rd%2C%2011300!5e0!3m2!1sen!2slk!4v1702332888584!5m2!1sen!2slk"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
 
       <div class="footer-container">
-        <div class="footer-grid">
-          <div class="d-flex flex-column footer-mb-mobile">
-            <img class="footer-logo" src="./images/logo.png" />
-            <div class="d-flex align-items-center justify-content-start mb-4">
-              <i class="footer-social-media-icon fab fa-facebook-f me-4" onclick="goToFbPage()"></i>
-              <i class="footer-social-media-icon fab fa-instagram me-4" onclick="goToInstaPage()"></i>
-              <i class="footer-social-media-icon fab fa-linkedin-in" onclick="goToLinkedinPage()"></i>
-            </div>
+        <div class="footer-social-row">
+          <img class="footer-logo" src="./images/logo.png" />
+          <div class="d-flex align-items-center justify-content-start">
+            <i
+              class="footer-social-media-icon fab fa-facebook-f me-4"
+              onclick="goToFbPage()"
+            ></i>
+            <i
+              class="footer-social-media-icon fab fa-instagram me-4"
+              onclick="goToInstaPage()"
+            ></i>
+            <i
+              class="footer-social-media-icon fab fa-linkedin-in"
+              onclick="goToLinkedinPage()"
+            ></i>
           </div>
-          <div class="d-flex flex-column footer-mb-mobile">
+        </div>
+        <div class="footer-details-row">
+          <div
+            class="d-flex flex-column footer-mb-mobile contact-details-footer-container"
+          >
             <span class="footer-heading">Contact Us</span>
             <span class="footer-details">+94 71 523 4584</span>
             <span class="footer-details">indeetsarch@gmail.com</span>
@@ -167,14 +241,26 @@
             <span class="footer-details">Ragama, Sri Lanka</span>
           </div>
           <div
-            class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile"
+            class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile contact-details-footer-container"
           >
             <span class="footer-link"><a href="./index.html">Home</a></span>
-            <span class="footer-link"><a href="./practice.html">Practice</a></span>
-            <span class="footer-link"><a href="./projects.html">Projects</a></span>
+            <span class="footer-link"
+              ><a href="./projects.html">Projects</a></span
+            >
+            <span class="footer-link"
+              ><a href="./coming-soon.html">Downloads</a></span
+            >
+          </div>
+          <div
+            class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile quick-links-container"
+          >
+            <span class="footer-link"
+              ><a href="./practice.html">About Us</a></span
+            >
             <span class="footer-link"><a href="./team.html">Our Team</a></span>
-            <span class="footer-link"><a href="./contact.html">Contact Us</a></span>
-            <span class="footer-link"><a href="./coming-soon.html">Downloads</a></span>
+            <span class="footer-link"
+              ><a href="./contact.html">Contact Us</a></span
+            >
           </div>
         </div>
         <div class="horizontal-divider"></div>
@@ -225,9 +311,12 @@
 
     <!-- Masonry JS -->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    
+
     <!-- Magnific Popup core JS file -->
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.magnific-popup.min.js"
+    ></script>
 
     <!-- Main JS -->
     <script type="text/javascript" src="js/main.js"></script>
