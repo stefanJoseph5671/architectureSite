@@ -1411,6 +1411,28 @@ body {
   color: inherit;
 }
 
+.testimonial-detail-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 0px 72px;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.testimonial-detail-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 1px 1px rgba(62, 62, 62, 0.1);
+  background: white;
+  height: 450px;
+  width: 395px;
+  margin: 0 16px;
+}
+
 
 
 /* Mobile CSS */
@@ -1469,6 +1491,20 @@ body {
 
   .home-detail-card {
     height: 375px;
+    width: 320px;
+    margin-bottom: 24px;
+    margin-right: 0px !important;
+  }
+
+  .testimonial-detail-container {
+    flex-direction: column;
+    padding: 0 20px;
+    top: 20px;
+    align-items: center;
+  }
+
+  .testimonial-detail-card {
+    height: 450px;
     width: 320px;
     margin-bottom: 24px;
     margin-right: 0px !important;
@@ -1810,6 +1846,10 @@ body {
 /* Laptop CSS */
 @media (min-width: 768px) and (max-width: 1550px) { 
   .home-detail-container {
+    padding: 0px 180px;
+  }
+
+  .testimonial-detail-container {
     padding: 0px 180px;
   }
 
