@@ -1708,6 +1708,63 @@ body {
   }
 }
 
+/* Laptop CSS */
+@media (min-width: 768px) and (max-width: 1550px) { 
+  .home-detail-container {
+    padding: 0px 180px;
+  }
+
+  .featured-works-container {
+    padding: 0px 200px;
+  }
+
+  .testimonial-container {
+    padding: 0px 200px;
+  }
+
+  .footer-container {
+    padding: 72px 200px;
+  }
+
+  .page-title-row {
+    padding: 0 175px;
+  }
+
+  .projects-container {
+    padding: 0px 200px;
+    margin-bottom: 60px;
+  }
+
+  .contact-us-container {
+    padding: 0px 200px;
+  }
+
+  .practice-detail-container {
+    padding: 500px 200px 70px 70px;
+  }
+
+  .about-us-container {
+    padding: 0 200px;
+  }
+
+  .about-us-grid-img-container {
+    padding: 0px 70px 0px 200px;
+  }
+
+  .about-us-grid-details-container {
+    padding: 70px 200px 70px 70px;
+  }
+
+  .step-grid {
+    padding: 0px 200px;
+    grid-column-gap: 100px;
+  }
+
+  .team-grid {
+    padding: 0px 200px;
+  }
+}
+
 /* Keyframes */
 @keyframes width-animation {
   0% {
