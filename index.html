@@ -64,7 +64,7 @@
             ><a href="./index.html">Home</a></span
           >
           <span class="navigation-link me-4">
-            <a href="./practice.html">About Us</a></span
+            <a href="./about.html">About Us</a></span
           >
           <span class="navigation-link me-4"
             ><a href="./projects.html">Projects</a></span
@@ -160,6 +160,15 @@
         </div>
       </div>
 
+      <div class="bg-line-grid">
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+      </div>
+
       <div class="home-detail-container">
         <div class="home-detail-card">
           <img class="home-detail-img" src="./images/home_detail_1.jpg" />
@@ -251,11 +260,11 @@
             </div>
           </div>
 
-          <div
-            class="featured-works-grid active-featured-grid"
-            id="featuredAllGrid"
-          >
-            <div class="featured-works-img all-projects-tall">
+          <div class="featured-div fw-h" id="allGrid">
+            <div
+              class="fw-img-container fw-img-container-one gcli-container"
+              id="allGridCardOne"
+            >
               <div class="featured-works-details h-100" onclick="goToCargo()">
                 <span class="featured-works-projects-subheading">Interior</span>
                 <span class="featured-works-projects-heading"
@@ -263,7 +272,10 @@
                 >
               </div>
             </div>
-            <div class="featured-works-img all-projects-small-one">
+            <div
+              class="fw-img-container fw-img-container-two s-container"
+              id="allGridCardTwo"
+            >
               <div
                 class="featured-works-details h-100"
                 onclick="goToSangawasa()"
@@ -272,20 +284,10 @@
                 <span class="featured-works-projects-heading">Sangawasa</span>
               </div>
             </div>
-            <div class="featured-works-img all-projects-small-two">
-              <div
-                class="featured-works-details h-100"
-                onclick="goToMagalwewa()"
-              >
-                <span class="featured-works-projects-subheading"
-                  >Commercial</span
-                >
-                <span class="featured-works-projects-heading"
-                  >Magalwewa Hideout</span
-                >
-              </div>
-            </div>
-            <div class="featured-works-img all-projects-wide">
+            <div
+              class="fw-img-container fw-img-container-three tc-container"
+              id="allGridCardThree"
+            >
               <div
                 class="featured-works-details h-100"
                 onclick="goToTropical()"
@@ -296,7 +298,26 @@
                 >
               </div>
             </div>
-            <div class="featured-works-img all-projects-normal-one">
+            <div
+              class="fw-img-container fw-img-container-four mh-container"
+              id="allGridCardFour"
+            >
+              <div
+                class="featured-works-details h-100"
+                onclick="goToMagalwewa()"
+              >
+                <span class="featured-works-projects-subheading"
+                  >Commercial</span
+                >
+                <span class="featured-works-projects-heading"
+                  >Magalwewa Hideout</span
+                >
+              </div>
+            </div>
+            <div
+              class="fw-img-container fw-img-container-five ht-container"
+              id="allGridCardFive"
+            >
               <div class="featured-works-details h-100" onclick="goToHilltop()">
                 <span class="featured-works-projects-subheading"
                   >Residential</span
@@ -306,7 +327,10 @@
                 >
               </div>
             </div>
-            <div class="featured-works-img all-projects-normal-two">
+            <div
+              class="fw-img-container fw-img-container-six bh-container"
+              id="allGridCardSix"
+            >
               <div class="featured-works-details h-100" onclick="goToBudget()">
                 <span class="featured-works-projects-subheading"
                   >Residential</span
@@ -318,18 +342,11 @@
             </div>
           </div>
 
-          <div class="featured-works-grid" id="featuredResidentialGrid">
-            <div class="featured-works-img residential-normal-one">
-              <div class="featured-works-details h-100" onclick="goToBudget()">
-                <span class="featured-works-projects-subheading"
-                  >Residential</span
-                >
-                <span class="featured-works-projects-heading"
-                  >Budget House</span
-                >
-              </div>
-            </div>
-            <div class="featured-works-img residential-normal-two">
+          <div class="featured-div fw-h d-none-grid" id="residentsGrid">
+            <div
+              class="fw-img-container fw-img-container-one ht-container"
+              id="residentsGridCardOne"
+            >
               <div class="featured-works-details h-100" onclick="goToHilltop()">
                 <span class="featured-works-projects-subheading"
                   >Residential</span
@@ -339,10 +356,26 @@
                 >
               </div>
             </div>
+            <div
+              class="fw-img-container fw-img-container-two bh-container"
+              id="residentsGridCardTwo"
+            >
+              <div class="featured-works-details h-100" onclick="goToBudget()">
+                <span class="featured-works-projects-subheading"
+                  >Residential</span
+                >
+                <span class="featured-works-projects-heading"
+                  >Budget House</span
+                >
+              </div>
+            </div>
           </div>
 
-          <div class="featured-works-grid" id="featuredCommercialGrid">
-            <div class="featured-works-img commercial-wide">
+          <div class="featured-div fw-h d-none-grid" id="commercialGrid">
+            <div
+              class="fw-img-container fw-img-container-one mh-container"
+              id="commercialGridOne"
+            >
               <div
                 class="featured-works-details h-100"
                 onclick="goToMagalwewa()"
@@ -357,8 +390,11 @@
             </div>
           </div>
 
-          <div class="featured-works-grid" id="featuredSpecialGrid">
-            <div class="featured-works-img special-wide">
+          <div class="featured-div fw-h d-none-grid" id="specialGrid">
+            <div
+              class="fw-img-container fw-img-container-one s-container"
+              id="specialGridOne"
+            >
               <div
                 class="featured-works-details h-100"
                 onclick="goToSangawasa()"
@@ -369,8 +405,11 @@
             </div>
           </div>
 
-          <div class="featured-works-grid" id="featuredInteriorGrid">
-            <div class="featured-works-img interior-normal-one">
+          <div class="featured-div fw-h d-none-grid" id="interiorGrid">
+            <div
+              class="fw-img-container fw-img-container-one gcli-container"
+              id="interiorGridOne"
+            >
               <div class="featured-works-details h-100" onclick="goToCargo()">
                 <span class="featured-works-projects-subheading">Interior</span>
                 <span class="featured-works-projects-heading"
@@ -378,7 +417,10 @@
                 >
               </div>
             </div>
-            <div class="featured-works-img interior-normal-two">
+            <div
+              class="fw-img-container fw-img-container-two tc-container"
+              id="interiorGridTwo"
+            >
               <div
                 class="featured-works-details h-100"
                 onclick="goToTropical()"
@@ -408,38 +450,89 @@
         </div>
       </div>
 
-      
-      <div class="testimonial-detail-container">
-        <div class="testimonial-detail-card">
-          <img class="client-img" src="./images/client.svg" />
-          <span class="testimonial-name">Dushmantha Baranage</span>
-          <img class="star-rating" src="./images/stars.svg" />
-          <span class="testimonial-testimony"
-            >"New unique modern design as per client requirements and
-            budget."</span
-          >
-        </div>
-        <div class="testimonial-detail-card">
-          <img class="client-img" src="./images/client.svg" />
-          <span class="testimonial-name">Santhush Aravinda Dissanayake</span>
-          <img class="star-rating" src="./images/stars.svg" />
-          <span class="testimonial-testimony"
-            >"They design exactly what you want, maximum flexibility and
-            patience with clients, very creative suggestions, utilizing the
-            maximum land with attractive features, simple but elegant, giving
-            maximum benefits to the client."</span
-          >
-        </div>
-        <div class="testimonial-detail-card">
-          <img class="client-img" src="./images/client.svg" />
-          <span class="testimonial-name">Dushmantha Baranage</span>
-          <img class="star-rating" src="./images/stars.svg" />
-          <span class="testimonial-testimony"
-            >"New unique modern design as per client requirements and
-            budget."</span
-          >
+      <div class="testimonial-container">
+        <div class="testimonial-items">
+          <section>
+            <div class="testimonial-detail-card">
+              <img class="client-img" src="./images/client.svg" />
+              <span class="testimonial-name">Dushmantha Baranage</span>
+              <img class="star-rating" src="./images/stars.svg" />
+              <span class="testimonial-testimony"
+                >"New unique modern design as per client requirements and
+                budget."</span
+              >
+            </div>
+          </section>
+          <section>
+            <div class="testimonial-detail-card">
+              <img class="client-img" src="./images/client.svg" />
+              <span class="testimonial-name"
+                >Santhush Aravinda Dissanayake</span
+              >
+              <img class="star-rating" src="./images/stars.svg" />
+              <span class="testimonial-testimony"
+                >"They design exactly what you want, maximum flexibility and
+                patience with clients, very creative suggestions, utilizing the
+                maximum land with attractive features, simple but elegant,
+                giving maximum benefits to the client."</span
+              >
+            </div>
+          </section>
+          <section>
+            <div class="testimonial-detail-card">
+              <img class="client-img" src="./images/client.svg" />
+              <span class="testimonial-name">Dushmantha Baranage</span>
+              <img class="star-rating" src="./images/stars.svg" />
+              <span class="testimonial-testimony"
+                >"New unique modern design as per client requirements and
+                budget."</span
+              >
+            </div>
+          </section>
+          <section>
+            <div class="testimonial-detail-card">
+              <img class="client-img" src="./images/client.svg" />
+              <span class="testimonial-name"
+                >Santhush Aravinda Dissanayake</span
+              >
+              <img class="star-rating" src="./images/stars.svg" />
+              <span class="testimonial-testimony"
+                >"They design exactly what you want, maximum flexibility and
+                patience with clients, very creative suggestions, utilizing the
+                maximum land with attractive features, simple but elegant,
+                giving maximum benefits to the client."</span
+              >
+            </div>
+          </section>
+          <section>
+            <div class="testimonial-detail-card">
+              <img class="client-img" src="./images/client.svg" />
+              <span class="testimonial-name">Dushmantha Baranage</span>
+              <img class="star-rating" src="./images/stars.svg" />
+              <span class="testimonial-testimony"
+                >"New unique modern design as per client requirements and
+                budget."</span
+              >
+            </div>
+          </section>
+          <section>
+            <div class="testimonial-detail-card">
+              <img class="client-img" src="./images/client.svg" />
+              <span class="testimonial-name"
+                >Santhush Aravinda Dissanayake</span
+              >
+              <img class="star-rating" src="./images/stars.svg" />
+              <span class="testimonial-testimony"
+                >"They design exactly what you want, maximum flexibility and
+                patience with clients, very creative suggestions, utilizing the
+                maximum land with attractive features, simple but elegant,
+                giving maximum benefits to the client."</span
+              >
+            </div>
+          </section>
         </div>
       </div>
+
 
       <div class="footer-container">
         <div class="footer-social-row">

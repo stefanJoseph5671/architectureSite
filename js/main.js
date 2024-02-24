@@ -9,6 +9,7 @@ $(document).ready(function () {
     cssEase: 'ease-in-out'
   });
 
+
   $('.slider-container').on('afterChange', function (event, slick, currentSlide, nextSlide) {
     switch (currentSlide) {
       case 0:
@@ -118,7 +119,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-sangawasa-popup-three').magnificPopup({
     items: [
       {
@@ -154,7 +155,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-sangawasa-popup-four').magnificPopup({
     items: [
       {
@@ -190,7 +191,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-sangawasa-popup-five').magnificPopup({
     items: [
       {
@@ -226,7 +227,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-sangawasa-popup-six').magnificPopup({
     items: [
       {
@@ -262,7 +263,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-sangawasa-popup-seven').magnificPopup({
     items: [
       {
@@ -298,7 +299,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-sangawasa-popup-eight').magnificPopup({
     items: [
       {
@@ -334,7 +335,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-sangawasa-popup-nine').magnificPopup({
     items: [
       {
@@ -370,7 +371,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-magalwewa-popup-one').magnificPopup({
     items: [
       {
@@ -442,7 +443,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-magalwewa-popup-three').magnificPopup({
     items: [
       {
@@ -478,7 +479,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-magalwewa-popup-four').magnificPopup({
     items: [
       {
@@ -514,7 +515,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-magalwewa-popup-five').magnificPopup({
     items: [
       {
@@ -550,7 +551,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-magalwewa-popup-six').magnificPopup({
     items: [
       {
@@ -586,7 +587,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-magalwewa-popup-seven').magnificPopup({
     items: [
       {
@@ -622,7 +623,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-magalwewa-popup-eight').magnificPopup({
     items: [
       {
@@ -658,7 +659,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-magalwewa-popup-nine').magnificPopup({
     items: [
       {
@@ -694,7 +695,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-    
+
   $('#open-hilltop-popup-one').magnificPopup({
     items: [
       {
@@ -766,7 +767,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-hilltop-popup-three').magnificPopup({
     items: [
       {
@@ -802,7 +803,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-hilltop-popup-four').magnificPopup({
     items: [
       {
@@ -838,7 +839,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-hilltop-popup-five').magnificPopup({
     items: [
       {
@@ -874,7 +875,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-hilltop-popup-six').magnificPopup({
     items: [
       {
@@ -910,7 +911,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-hilltop-popup-seven').magnificPopup({
     items: [
       {
@@ -946,7 +947,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-hilltop-popup-eight').magnificPopup({
     items: [
       {
@@ -982,7 +983,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-hilltop-popup-nine').magnificPopup({
     items: [
       {
@@ -1018,7 +1019,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-      
+
   $('#open-cargo-popup-one').magnificPopup({
     items: [
       {
@@ -1078,7 +1079,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-cargo-popup-three').magnificPopup({
     items: [
       {
@@ -1108,7 +1109,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-cargo-popup-four').magnificPopup({
     items: [
       {
@@ -1138,7 +1139,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-cargo-popup-five').magnificPopup({
     items: [
       {
@@ -1168,7 +1169,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-cargo-popup-six').magnificPopup({
     items: [
       {
@@ -1198,7 +1199,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-cargo-popup-seven').magnificPopup({
     items: [
       {
@@ -1228,7 +1229,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-       
+
   $('#open-tropical-popup-one').magnificPopup({
     items: [
       {
@@ -1276,7 +1277,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-tropical-popup-three').magnificPopup({
     items: [
       {
@@ -1300,7 +1301,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-tropical-popup-four').magnificPopup({
     items: [
       {
@@ -1324,7 +1325,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-tropical-popup-five').magnificPopup({
     items: [
       {
@@ -1348,7 +1349,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-      
+
   $('#open-budget-popup-one').magnificPopup({
     items: [
       {
@@ -1408,7 +1409,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-budget-popup-three').magnificPopup({
     items: [
       {
@@ -1438,7 +1439,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-budget-popup-four').magnificPopup({
     items: [
       {
@@ -1468,7 +1469,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-budget-popup-five').magnificPopup({
     items: [
       {
@@ -1498,7 +1499,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-budget-popup-six').magnificPopup({
     items: [
       {
@@ -1528,7 +1529,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
   $('#open-budget-popup-seven').magnificPopup({
     items: [
       {
@@ -1558,7 +1559,7 @@ $(document).ready(function () {
     },
     type: 'image' // this is default type
   });
-  
+
 });
 
 function goToSlideOne() {
@@ -1575,6 +1576,15 @@ function goToSlideThree() {
 
 scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
+$('.testimonial-items').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: false,
+  slidesToShow: 3,
+  dots: true,
+});
+
 var myScrollFunc = function () {
   var y = window.scrollY;
   if (y >= 150) {
@@ -1586,54 +1596,65 @@ var myScrollFunc = function () {
 window.addEventListener("scroll", myScrollFunc);
 
 function featuredLinkClick(linkId) {
+
   switch (linkId) {
     case 1:
+      document.getElementById("featuredAll").classList.add("featured-works-link-active");
       document.getElementById("featuredResidential").classList.remove("featured-works-link-active");
       document.getElementById("featuredCommercial").classList.remove("featured-works-link-active");
       document.getElementById("featuredSpecial").classList.remove("featured-works-link-active");
       document.getElementById("featuredInterior").classList.remove("featured-works-link-active");
-      document.getElementById("featuredAll").classList.add("featured-works-link-active");
-      document.getElementById("featuredResidentialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredCommercialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredSpecialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredInteriorGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredAllGrid").classList.add("active-featured-grid");
+      document.getElementById("residentsGrid").classList.add("d-none-grid");
+      document.getElementById("commercialGrid").classList.add("d-none-grid");
+      document.getElementById("specialGrid").classList.add("d-none-grid");
+      document.getElementById("interiorGrid").classList.add("d-none-grid");
+      document.getElementById("allGrid").classList.remove("d-none-grid");
+      document.getElementById("allGridCardOne").classList.add("scale-in-center");
+      document.getElementById("allGridCardTwo").classList.add("scale-in-center");
+      document.getElementById("allGridCardThree").classList.add("scale-in-center");
+      document.getElementById("allGridCardFour").classList.add("scale-in-center");
+      document.getElementById("allGridCardFive").classList.add("scale-in-center");
+      document.getElementById("allGridCardSix").classList.add("scale-in-center");
       break;
     case 2:
       document.getElementById("featuredAll").classList.remove("featured-works-link-active");
+      document.getElementById("featuredResidential").classList.add("featured-works-link-active");
       document.getElementById("featuredCommercial").classList.remove("featured-works-link-active");
       document.getElementById("featuredSpecial").classList.remove("featured-works-link-active");
       document.getElementById("featuredInterior").classList.remove("featured-works-link-active");
-      document.getElementById("featuredResidential").classList.add("featured-works-link-active");
-      document.getElementById("featuredAllGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredCommercialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredSpecialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredInteriorGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredResidentialGrid").classList.add("active-featured-grid");
+      document.getElementById("allGrid").classList.add("d-none-grid");
+      document.getElementById("commercialGrid").classList.add("d-none-grid");
+      document.getElementById("specialGrid").classList.add("d-none-grid");
+      document.getElementById("interiorGrid").classList.add("d-none-grid");
+      document.getElementById("residentsGrid").classList.remove("d-none-grid");
+      document.getElementById("residentsGridCardOne").classList.add("scale-in-center");
+      document.getElementById("residentsGridCardTwo").classList.add("scale-in-center");
       break;
     case 3:
       document.getElementById("featuredAll").classList.remove("featured-works-link-active");
       document.getElementById("featuredResidential").classList.remove("featured-works-link-active");
+      document.getElementById("featuredCommercial").classList.add("featured-works-link-active");
       document.getElementById("featuredSpecial").classList.remove("featured-works-link-active");
       document.getElementById("featuredInterior").classList.remove("featured-works-link-active");
-      document.getElementById("featuredCommercial").classList.add("featured-works-link-active");
-      document.getElementById("featuredAllGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredResidentialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredSpecialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredInteriorGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredCommercialGrid").classList.add("active-featured-grid");
+      document.getElementById("allGrid").classList.add("d-none-grid");
+      document.getElementById("residentsGrid").classList.add("d-none-grid");
+      document.getElementById("specialGrid").classList.add("d-none-grid");
+      document.getElementById("interiorGrid").classList.add("d-none-grid");
+      document.getElementById("commercialGrid").classList.remove("d-none-grid");
+      document.getElementById("commercialGridOne").classList.add("scale-in-center");
       break;
     case 4:
       document.getElementById("featuredAll").classList.remove("featured-works-link-active");
       document.getElementById("featuredResidential").classList.remove("featured-works-link-active");
       document.getElementById("featuredCommercial").classList.remove("featured-works-link-active");
-      document.getElementById("featuredInterior").classList.remove("featured-works-link-active");
       document.getElementById("featuredSpecial").classList.add("featured-works-link-active");
-      document.getElementById("featuredAllGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredResidentialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredCommercialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredInteriorGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredSpecialGrid").classList.add("active-featured-grid");
+      document.getElementById("featuredInterior").classList.remove("featured-works-link-active");
+      document.getElementById("allGrid").classList.add("d-none-grid");
+      document.getElementById("residentsGrid").classList.add("d-none-grid");
+      document.getElementById("commercialGrid").classList.add("d-none-grid");
+      document.getElementById("interiorGrid").classList.add("d-none-grid");
+      document.getElementById("specialGrid").classList.remove("d-none-grid");
+      document.getElementById("specialGridOne").classList.add("scale-in-center");
       break;
     case 5:
       document.getElementById("featuredAll").classList.remove("featured-works-link-active");
@@ -1641,11 +1662,13 @@ function featuredLinkClick(linkId) {
       document.getElementById("featuredCommercial").classList.remove("featured-works-link-active");
       document.getElementById("featuredSpecial").classList.remove("featured-works-link-active");
       document.getElementById("featuredInterior").classList.add("featured-works-link-active");
-      document.getElementById("featuredAllGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredResidentialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredCommercialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredSpecialGrid").classList.remove("active-featured-grid");
-      document.getElementById("featuredInteriorGrid").classList.add("active-featured-grid");
+      document.getElementById("allGrid").classList.add("d-none-grid");
+      document.getElementById("residentsGrid").classList.add("d-none-grid");
+      document.getElementById("commercialGrid").classList.add("d-none-grid");
+      document.getElementById("specialGrid").classList.add("d-none-grid");
+      document.getElementById("interiorGrid").classList.remove("d-none-grid");
+      document.getElementById("interiorGridOne").classList.add("scale-in-center");
+      document.getElementById("interiorGridTwo").classList.add("scale-in-center");
       break;
     default:
       break;
@@ -1672,11 +1695,17 @@ function projectsLinkClick(linkId) {
       document.getElementById("specialProjects").classList.remove("projects-link-active");
       document.getElementById("interiorProjects").classList.remove("projects-link-active");
       document.getElementById("allProjects").classList.add("projects-link-active");
-      document.getElementById("residentialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("commercialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("specialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("interiorProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("allProjectsGrid").classList.add("active-projects-grid");
+      document.getElementById("residentsProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("commercialProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("specialProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("interiorProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("allProjectsGrid").classList.remove("d-none-projects-grid");
+      document.getElementById("allProjectsGridCardOne").classList.add("scale-in-center-project");
+      document.getElementById("allProjectsGridCardTwo").classList.add("scale-in-center-project");
+      document.getElementById("allProjectsGridCardThree").classList.add("scale-in-center-project");
+      document.getElementById("allProjectsGridCardFour").classList.add("scale-in-center-project");
+      document.getElementById("allProjectsGridCardFive").classList.add("scale-in-center-project");
+      document.getElementById("allProjectsGridCardSix").classList.add("scale-in-center-project");
       break;
     case 2:
       document.getElementById("allProjects").classList.remove("projects-link-active");
@@ -1684,11 +1713,13 @@ function projectsLinkClick(linkId) {
       document.getElementById("specialProjects").classList.remove("projects-link-active");
       document.getElementById("interiorProjects").classList.remove("projects-link-active");
       document.getElementById("residentialProjects").classList.add("projects-link-active");
-      document.getElementById("allProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("commercialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("specialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("interiorProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("residentialProjectsGrid").classList.add("active-projects-grid");
+      document.getElementById("allProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("commercialProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("specialProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("interiorProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("residentsProjectsGrid").classList.remove("d-none-projects-grid");
+      document.getElementById("residentsProjectsGridCardOne").classList.add("scale-in-center-project");
+      document.getElementById("residentsProjectsGridCardTwo").classList.add("scale-in-center-project");
       break;
     case 3:
       document.getElementById("allProjects").classList.remove("projects-link-active");
@@ -1696,11 +1727,12 @@ function projectsLinkClick(linkId) {
       document.getElementById("specialProjects").classList.remove("projects-link-active");
       document.getElementById("interiorProjects").classList.remove("projects-link-active");
       document.getElementById("commercialProjects").classList.add("projects-link-active");
-      document.getElementById("allProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("residentialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("specialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("interiorProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("commercialProjectsGrid").classList.add("active-projects-grid");
+      document.getElementById("allProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("residentsProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("specialProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("interiorProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("commercialProjectsGrid").classList.remove("d-none-projects-grid");
+      document.getElementById("commercialProjectsGridCardOne").classList.add("scale-in-center-project");
       break;
     case 4:
       document.getElementById("allProjects").classList.remove("projects-link-active");
@@ -1708,11 +1740,12 @@ function projectsLinkClick(linkId) {
       document.getElementById("commercialProjects").classList.remove("projects-link-active");
       document.getElementById("interiorProjects").classList.remove("projects-link-active");
       document.getElementById("specialProjects").classList.add("projects-link-active");
-      document.getElementById("allProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("residentialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("commercialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("interiorProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("specialProjectsGrid").classList.add("active-projects-grid");
+      document.getElementById("allProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("residentsProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("commercialProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("interiorProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("specialProjectsGrid").classList.remove("d-none-projects-grid");
+      document.getElementById("specialProjectsGridCardOne").classList.add("scale-in-center-project");
       break;
     case 5:
       document.getElementById("allProjects").classList.remove("projects-link-active");
@@ -1720,11 +1753,13 @@ function projectsLinkClick(linkId) {
       document.getElementById("commercialProjects").classList.remove("projects-link-active");
       document.getElementById("specialProjects").classList.remove("projects-link-active");
       document.getElementById("interiorProjects").classList.add("projects-link-active");
-      document.getElementById("allProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("residentialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("commercialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("specialProjectsGrid").classList.remove("active-projects-grid");
-      document.getElementById("interiorProjectsGrid").classList.add("active-projects-grid");
+      document.getElementById("allProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("residentsProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("commercialProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("specialProjectsGrid").classList.add("d-none-projects-grid");
+      document.getElementById("interiorProjectsGrid").classList.remove("d-none-projects-grid");
+      document.getElementById("interiorProjectsGridCardOne").classList.add("scale-in-center-project");
+      document.getElementById("interiorProjectsGridCardTwo").classList.add("scale-in-center-project");
       break;
     default:
       break;
