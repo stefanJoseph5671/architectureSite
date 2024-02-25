@@ -1750,6 +1750,54 @@ body {
 
 /* Mobile CSS */
 @media (min-width: 320px) and (max-width: 767px) {
+
+  .featured-div {
+    grid-template-columns: 1fr;
+    grid-row-gap: 14px;
+  }
+
+  .fw-img-container-four {
+    top: 0px;
+  }
+
+  .fw-img-container-five {
+    top: 0px;
+  }
+
+  .fw-img-container-six {
+    top: 0px;
+  }
+
+  .project-div {
+    grid-template-columns: 1fr;
+    grid-row-gap: 14px;
+  }
+
+  .project-s-container {
+    width: 100%;
+  }
+
+  .project-mh-container {
+    width: 100%;
+  }
+
+  .project-ht-container {
+    width: 100%;
+  }
+
+  .project-gcli-container {
+    width: 100%;
+  }
+
+  .project-tc-container {
+    width: 100%;
+  }
+
+  .project-bh-container {
+    width: 100%;
+  }
+
+
   .mobile-d-none {
     display: none;
   }
@@ -2086,6 +2134,7 @@ body {
   .about-us-grid {
     grid-template-columns: 1fr;
     top: 0px;
+    padding: 0px 0px;
   }
 
   .about-us-grid-img-container {

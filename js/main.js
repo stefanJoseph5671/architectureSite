@@ -1583,6 +1583,15 @@ $('.testimonial-items').slick({
   arrows: false,
   slidesToShow: 3,
   dots: true,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+  ]
 });
 
 var myScrollFunc = function () {
