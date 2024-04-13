@@ -1830,8 +1830,8 @@ function goToBudget() {
   window.location.href = "budget.html";
 }
 
-function goToPractice() {
-  window.location.href = "practice.html";
+function goToAbout() {
+  window.location.href = "about.html";
 }
 
 function goToProjects() {
