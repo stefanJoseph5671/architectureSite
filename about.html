@@ -51,7 +51,7 @@
     <div class="container-fluid p-0">
       <div id="home" class="header-inner-page-container">
         <div class="header-logo-container">
-          <img class="header-logo" src="images/logo.png" />
+          <img class="header-logo" src="images/logo.svg" />
         </div>
         <div id="menuOpen" class="menu-open-btn" onclick="openMenu()">
           <img width="32" src="./images/menu_open.svg" />
@@ -93,7 +93,9 @@
       </div>
 
       <div class="practice-container">
-        <div class="practice-image-container"></div>
+        <div class="practice-image-container">
+          <img class="practice-image-img" src="./images/architect.jpg" />
+        </div>
         <div class="practice-detail-container">
           <div class="d-flex flex-column">
             <div class="practice-detail-divider"></div>
@@ -103,22 +105,26 @@
             <span class="practice-detail-content mb-3"
               >The Space has the ability to change people's behaviors,
               Influencing people’s mind by providing light, colors, ventilation
-              and textures - let them to experience the volume of the space in a
+              and textures -We always as architects create the space in a
               memorable way and it will become an unforgettable episode of their
               life. So we always wanted to create simple but creative space that
               people going to love, going to remember and solve their
-              difficulties in terms of architecture. Indeets architect’s
-              architectural practice is dedicated to the production of quality
-              architecture that is highly responsive to its context and seeks to
-              form a strong relationship with landscape and people.</span
+              difficulties in terms of there life style or there business
+              models. Indeets architect’s architectural practice is dedicated to
+              the production of quality architecture that is highly responsive
+              to its context and seeks to form a strong relationship with
+              landscape and people.</span
             >
-            <span class="practice-detail-content mb-2"
+            <span class="practice-detail-content mb-5"
               >Our mission is to maintain a leading architectural practice which
               provides creative design solutions that resolve social,
               environmental and economic needs. Furthermore provide solutions
               and services within the built environment and the ecological
               infrastructure which sustain us.</span
             >
+            <div class="normal-btn mb-3" onclick="goToProjects()">
+              <span class="normal-btn-text">view our portfolio</span>
+            </div>
           </div>
         </div>
       </div>
@@ -164,21 +170,23 @@
           <span class="offer-title">Conceptual & Shematic design</span>
           <span class="offer-details mb-3"
             >Programming the concept design, translates it into architectural
-            and spatial designs.Goal in schematic design should be to settle on
+            and spatial designs. Goal in schematic design should be to settle on
             an overall concept for the project and produce a framework to move
-            forward into design development, and eventually construction.</span
-          >
+            forward into design development, and eventually construction.
+          </span>
           <span class="offer-details"
-            >Concept design can be loose and diagrammatic. There is no need to
-            address issues of scale or constructability during this process. But
-            standard conventions of architectural drawing (plan, section,
+            >Concept design can be very basic and diagrammatic. There is no need
+            to address issues of scale or construct-ability during this process.
+            But standard conventions of architectural drawing (plan, section,
             elevation) should be used in the schematic design phase to
             articulate space and scale.</span
           >
-          <div class="view-more-btn">View More</div>
+          <div class="normal-btn mb-3" onclick="goToProjects()">
+            <span class="normal-btn-text">view our portfolio</span>
+          </div>
         </div>
         <div class="about-us-grid-img-container">
-          <img class="about-us-grid-img" src="./images/home_detail_1.jpg" />
+          <img class="about-us-grid-img" src="./images/about_us_1.jpg" />
         </div>
       </div>
       <div class="about-us-grid">
@@ -198,10 +206,12 @@
             detailing, heating air conditioning and ventilation systems,
             plumbing, electrical, gas, energy calculations.</span
           >
-          <div class="view-more-btn">View More</div>
+          <div class="normal-btn mb-3" onclick="goToProjects()">
+            <span class="normal-btn-text">view our portfolio</span>
+          </div>
         </div>
         <div class="about-us-grid-img-container">
-          <img class="about-us-grid-img" src="./images/home_detail_2.jpg" />
+          <img class="about-us-grid-img" src="./images/about_us_2.jpg" />
         </div>
       </div>
       <div class="about-us-grid">
@@ -212,7 +222,7 @@
             >Interior Detailing bridges the gap between design and construction,
             and shows how to develop and transform design concepts into details
             that meet the constraints, functional requirements, and
-            constructability issues that are part of any interior design
+            construct-ability issues that are part of any interior design
             element.</span
           >
           <span class="offer-details"
@@ -220,10 +230,12 @@
             more aesthetically pleasing environment for the people using the
             space.</span
           >
-          <div class="view-more-btn">View More</div>
+          <div class="normal-btn mb-3" onclick="goToProjects()">
+            <span class="normal-btn-text">view our portfolio</span>
+          </div>
         </div>
         <div class="about-us-grid-img-container">
-          <img class="about-us-grid-img" src="./images/home_detail_3.jpg" />
+          <img class="about-us-grid-img" src="./images/about_us_3.jpg" />
         </div>
       </div>
       <div class="about-us-grid">
@@ -232,22 +244,32 @@
           <span class="offer-title">Construction Monitoring</span>
           <span class="offer-details mb-3"
             >We will periodically visit the job site to see progress and ensure
-            the contractor is following the plans. If needed the wet can review
-            contractor’s monthly invoices to confirm work completion. The
-            architect will be available to answer questions and provide
-            additional information to issues that arise.
+            the contractor is following the construction drawings and expert’s
+            instructions. If needed, the wet can review contractor’s monthly
+            invoices to confirm work completion. The architect will be available
+            to answer questions and provide additional information to issues
+            that arise.
           </span>
-          <div class="view-more-btn">View More</div>
+          <div class="normal-btn mb-3" onclick="goToProjects()">
+            <span class="normal-btn-text">view our portfolio</span>
+          </div>
         </div>
         <div class="about-us-grid-img-container">
-          <img class="about-us-grid-img" src="./images/home_detail_2.jpg" />
+          <img class="about-us-grid-img" src="./images/about_us_2.jpg" />
         </div>
       </div>
 
-      <div class="testimonial-container">
+      <div class="team-main-container">
         <div class="d-flex flex-column align-items-center">
-          <div class="testimonial-divider"></div>
-          <span class="testimonial-heading mb-2">Our Team</span>
+          <div class="team-main-divider"></div>
+          <span class="team-main-heading mb-2">Our Team</span>
+          <div
+            class="d-flex align-items-center justify-content-start flex-row-col-mobile"
+          >
+            <span class="team-main-subheading"
+              >“Teamwork makes the dream work.” - John Maxwell</span
+            >
+          </div>
         </div>
       </div>
 
@@ -278,13 +300,11 @@
         </div>
       </div>
 
-      <div class="hash-container hash-bg">
-
-      </div>
+      <div class="hash-container hash-bg"></div>
 
       <div class="footer-container">
         <div class="footer-social-row">
-          <img class="footer-logo" src="./images/logo.png" />
+          <img class="footer-logo" src="./images/logo.svg" />
           <div class="d-flex align-items-center justify-content-start">
             <i
               class="footer-social-media-icon fab fa-facebook-f me-4"
