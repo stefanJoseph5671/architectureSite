@@ -2,8 +2,8 @@ $(document).ready(function () {
   $('.slider-container').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 3000,
     infinite: true,
     // fade: true,
     speed: 0,
@@ -14,45 +14,53 @@ $(document).ready(function () {
   $('.slider-container').on('afterChange', function (event, slick, currentSlide, nextSlide) {
     switch (currentSlide) {
       case 0:
-        // document.getElementById("sliderContainer").style.backgroundImage = "url(images/slider_2.jpg)";
         document.getElementById("imageSliderTwo").classList.remove("slide-in-right");
         document.getElementById("imageSliderThree").classList.remove("slide-in-right");
+        document.getElementById("imageSliderFour").classList.remove("slide-in-right");
         document.getElementById("imageSliderTwoTextOne").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderTwoTextTwo").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderTwoBtn").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderThreeTextOne").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderThreeTextTwo").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderThreeBtn").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFourTextOne").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFourTextTwo").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFourBtn").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderOne").classList.add("slide-in-right");
         document.getElementById("imageSliderOneTextOne").classList.add("slide-in-bottom");
         document.getElementById("imageSliderOneTextTwo").classList.add("slide-in-bottom");
         document.getElementById("imageSliderOneBtn").classList.add("slide-in-bottom");
         document.getElementById("slideTwo").classList.remove("active-slide-number");
         document.getElementById("slideThree").classList.remove("active-slide-number");
+        document.getElementById("slideFour").classList.remove("active-slide-number");
         document.getElementById("slideOne").classList.add("active-slide-number");
         break;
       case 1:
-        // document.getElementById("sliderContainer").style.backgroundImage = "url(images/slider_3.jpg)";
         document.getElementById("imageSliderOne").classList.remove("slide-in-right");
         document.getElementById("imageSliderThree").classList.remove("slide-in-right");
+        document.getElementById("imageSliderFour").classList.remove("slide-in-right");
         document.getElementById("imageSliderOneTextOne").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderOneTextTwo").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderOneBtn").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderThreeTextOne").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderThreeTextTwo").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderThreeBtn").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFourTextOne").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFourTextTwo").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFourBtn").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderTwo").classList.add("slide-in-right");
         document.getElementById("imageSliderTwoTextOne").classList.add("slide-in-bottom");
         document.getElementById("imageSliderTwoTextTwo").classList.add("slide-in-bottom");
         document.getElementById("imageSliderTwoBtn").classList.add("slide-in-bottom");
         document.getElementById("slideOne").classList.remove("active-slide-number");
         document.getElementById("slideThree").classList.remove("active-slide-number");
+        document.getElementById("slideFour").classList.remove("active-slide-number");
         document.getElementById("slideTwo").classList.add("active-slide-number");
         break;
       case 2:
-        // document.getElementById("sliderContainer").style.backgroundImage = "url(images/slider_1.jpg)";
         document.getElementById("imageSliderTwo").classList.remove("slide-in-right");
         document.getElementById("imageSliderOne").classList.remove("slide-in-right");
+        document.getElementById("imageSliderFour").classList.remove("slide-in-right");
         document.getElementById("imageSliderOneTextOne").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderOneTextTwo").classList.remove("slide-in-bottom");
         document.getElementById("imageSliderOneBtn").classList.remove("slide-in-bottom");
@@ -63,9 +71,35 @@ $(document).ready(function () {
         document.getElementById("imageSliderThreeTextOne").classList.add("slide-in-bottom");
         document.getElementById("imageSliderThreeTextTwo").classList.add("slide-in-bottom");
         document.getElementById("imageSliderThreeBtn").classList.add("slide-in-bottom");
+        document.getElementById("imageSliderFourTextOne").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFourTextTwo").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFourBtn").classList.remove("slide-in-bottom");
         document.getElementById("slideOne").classList.remove("active-slide-number");
         document.getElementById("slideTwo").classList.remove("active-slide-number");
+        document.getElementById("slideFour").classList.remove("active-slide-number");
         document.getElementById("slideThree").classList.add("active-slide-number");
+        break;
+      case 3:
+        document.getElementById("imageSliderTwo").classList.remove("slide-in-right");
+        document.getElementById("imageSliderOne").classList.remove("slide-in-right");
+        document.getElementById("imageSliderOneTextOne").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderOneTextTwo").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderOneBtn").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderTwoTextOne").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderTwoTextTwo").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderTwoBtn").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderThree").classList.remove("slide-in-right");
+        document.getElementById("imageSliderThreeTextOne").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderThreeTextTwo").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderThreeBtn").classList.remove("slide-in-bottom");
+        document.getElementById("imageSliderFour").classList.add("slide-in-right");
+        document.getElementById("imageSliderFourTextOne").classList.add("slide-in-bottom");
+        document.getElementById("imageSliderFourTextTwo").classList.add("slide-in-bottom");
+        document.getElementById("imageSliderFourBtn").classList.add("slide-in-bottom");
+        document.getElementById("slideOne").classList.remove("active-slide-number");
+        document.getElementById("slideTwo").classList.remove("active-slide-number");
+        document.getElementById("slideThree").classList.remove("active-slide-number");
+        document.getElementById("slideFour").classList.add("active-slide-number");
         break;
 
       default:
@@ -1603,6 +1637,10 @@ function goToSlideTwo() {
 
 function goToSlideThree() {
   $('.slider-container').slick('slickGoTo', 2);
+}
+
+function goToSlideFour() {
+  $('.slider-container').slick('slickGoTo', 3);
 }
 
 scrollToTopBtn = document.getElementById("scrollToTopBtn");

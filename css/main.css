@@ -119,13 +119,20 @@ body {
   background-position: center center;
 }
 
+.slider-four {
+  background: url(../images/slider_4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .slider-header {
   font-size: 65px;
   color: white;
   visibility: hidden;
-  -webkit-text-fill-color: white;
+  /* -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: black; */
 }
 
 .slider-btn {
@@ -702,7 +709,7 @@ body {
 }
 
 .footer-logo {
-  width: 300px;
+  width: 200px;
   margin-bottom: 32px;
 }
 
@@ -1751,6 +1758,13 @@ body {
 
 .image-slider-bg-three {
   background-image: url(../images/slider_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-slider-bg-four {
+  background-image: url(../images/slider_3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
