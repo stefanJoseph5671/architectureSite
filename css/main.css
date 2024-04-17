@@ -134,9 +134,10 @@ body {
   font-size: 65px;
   color: white;
   visibility: hidden;
-  /* -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black; */
+  text-shadow: 1px 1px #666666;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0000000a;
 }
 
 .normal-btn {
@@ -728,9 +729,9 @@ body {
   width: 200px;
   margin-bottom: 32px;
   image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .footer-social-media-icon {
@@ -895,7 +896,7 @@ body {
 
 .about-us-grid {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
   grid-column-gap: 0px;
   position: relative;
   top: -300px;
@@ -956,6 +957,8 @@ body {
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 14px;
   padding: 0px 300px;
+  margin-top: 150px;
+  z-index: 1;
 }
 
 .team-subheading {
@@ -2430,7 +2433,7 @@ body {
 /* Laptop CSS */
 @media (min-width: 768px) and (max-width: 1550px) {
   .practice-image-container {
-    padding: 500px 30px 70px 170px;
+    padding: 500px 30px 70px 50px;
   }
 
   .home-detail-container {
@@ -2719,6 +2722,13 @@ body {
 .mfp-arrow-right::after {
   display: none;
   content: "";
+}
+
+.slide-in-bottom-btn {
+  visibility: visible;
+  -webkit-animation: slide-in-bottom 1s ease-in-out both;
+  animation: slide-in-bottom 1s ease-in-out both;
+  animation-delay: 0.25s;
 }
 
 .slide-in-bottom {
