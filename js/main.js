@@ -1625,6 +1625,815 @@ $(document).ready(function () {
     type: 'image' // this is default type
   });
 
+  $('#open-shade-popup-one').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-two').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-three').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-four').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-five').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-six').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-seven').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-eight').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-nine').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-ten').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-eleven').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-twelve').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-thirteen').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-fourteen').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_14.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_15.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
+
+  $('#open-shade-popup-fifteen').magnificPopup({
+    items: [
+      {
+        src: './images/shade/shade_15.jpg'
+      },
+      {
+        src: './images/shade/shade_1.jpg'
+      },
+      {
+        src: './images/shade/shade_2.jpg'
+      },
+      {
+        src: './images/shade/shade_3.jpg'
+      },
+      {
+        src: './images/shade/shade_4.jpg'
+      },
+      {
+        src: './images/shade/shade_5.jpg'
+      },
+      {
+        src: './images/shade/shade_6.jpg'
+      },
+      {
+        src: './images/shade/shade_7.jpg'
+      },
+      {
+        src: './images/shade/shade_8.jpg'
+      },
+      {
+        src: './images/shade/shade_9.jpg'
+      },
+      {
+        src: './images/shade/shade_10.jpg'
+      },
+      {
+        src: './images/shade/shade_11.jpg'
+      },
+      {
+        src: './images/shade/shade_12.jpg'
+      },
+      {
+        src: './images/shade/shade_13.jpg'
+      },
+      {
+        src: './images/shade/shade_14.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
 });
 
 function goToSlideOne() {
@@ -1693,6 +2502,7 @@ function featuredLinkClick(linkId) {
       document.getElementById("allGridCardFour").classList.add("scale-in-center");
       document.getElementById("allGridCardFive").classList.add("scale-in-center");
       document.getElementById("allGridCardSix").classList.add("scale-in-center");
+      document.getElementById("allGridCardSeven").classList.add("scale-in-center");
       break;
     case 2:
       document.getElementById("featuredAll").classList.remove("featured-works-link-active");
@@ -1707,6 +2517,7 @@ function featuredLinkClick(linkId) {
       document.getElementById("residentsGrid").classList.remove("d-none-grid");
       document.getElementById("residentsGridCardOne").classList.add("scale-in-center");
       document.getElementById("residentsGridCardTwo").classList.add("scale-in-center");
+      document.getElementById("residentsGridCardThree").classList.add("scale-in-center");
       break;
     case 3:
       document.getElementById("featuredAll").classList.remove("featured-works-link-active");
@@ -1784,6 +2595,7 @@ function projectsLinkClick(linkId) {
       document.getElementById("allProjectsGridCardFour").classList.add("scale-in-center-project");
       document.getElementById("allProjectsGridCardFive").classList.add("scale-in-center-project");
       document.getElementById("allProjectsGridCardSix").classList.add("scale-in-center-project");
+      document.getElementById("allProjectsGridCardSeven").classList.add("scale-in-center-project");
       break;
     case 2:
       document.getElementById("allProjects").classList.remove("projects-link-active");
@@ -1798,6 +2610,7 @@ function projectsLinkClick(linkId) {
       document.getElementById("residentsProjectsGrid").classList.remove("d-none-projects-grid");
       document.getElementById("residentsProjectsGridCardOne").classList.add("scale-in-center-project");
       document.getElementById("residentsProjectsGridCardTwo").classList.add("scale-in-center-project");
+      document.getElementById("residentsProjectsGridCardThree").classList.add("scale-in-center-project");
       break;
     case 3:
       document.getElementById("allProjects").classList.remove("projects-link-active");
@@ -1866,6 +2679,10 @@ function goToHilltop() {
 
 function goToBudget() {
   window.location.href = "budget.html";
+}
+
+function goToTropicalShade() {
+  window.location.href = "tropical-shade.html";
 }
 
 function goToAbout() {

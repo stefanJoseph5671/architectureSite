@@ -395,6 +395,10 @@ body {
   transition: 0.5s ease-in-out;
 }
 
+.featured-all-grid {
+  margin-bottom: -320px;
+}
+
 .fw-h {
   margin-top: 70px;
 }
@@ -424,6 +428,11 @@ body {
 .fw-img-container-six {
   height: 514px;
   top: 14px;
+}
+
+.fw-img-container-seven {
+  height: 380px;
+  top: -360px;
 }
 
 .gcli-container {
@@ -463,6 +472,13 @@ body {
 
 .bh-container {
   background: url(../images/project_6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ts-container {
+  background: url(../images/shade/shade_14.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1292,6 +1308,19 @@ body {
   background-position-x: calc(50% + 10px);
 }
 
+.project-ts-container {
+  background: url(../images/shade/shade_14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 386px;
+  transition: background-position-x 1s ease;
+}
+
+.project-ts-container:hover {
+  background-position-x: calc(50% + 10px);
+}
+
 .d-none-projects-grid {
   display: none;
 }
@@ -1384,7 +1413,7 @@ body {
   font-size: 17px;
   font-weight: 600;
   color: #050505;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .project-detail-content-italic {
@@ -1947,6 +1976,11 @@ body {
 
 /* Mobile CSS */
 @media (min-width: 320px) and (max-width: 767px) {
+
+  .featured-all-grid {
+    margin-bottom: -20px;
+  }
+
   .prev-next-container {
     padding: 4.16667rem 20px;
   }
@@ -1981,6 +2015,10 @@ body {
     top: 0px;
   }
 
+  .fw-img-container-seven {
+    top: 0px;
+  }
+
   .project-div {
     grid-template-columns: 1fr;
     grid-row-gap: 14px;
@@ -2007,6 +2045,10 @@ body {
   }
 
   .project-bh-container {
+    width: 100%;
+  }
+
+  .project-ts-container {
     width: 100%;
   }
 
