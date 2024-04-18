@@ -6,6 +6,12 @@
     <title>Indeets Architect</title>
     <meta name="description" content="Indeets Architect" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -128,14 +134,10 @@
             <div
               class="d-flex flex-column align-items-start justify-content-center h-100 slider-content-ml"
             >
-              <span
-                id="imageSliderTwoTextOne"
-                class="slider-header"
+              <span id="imageSliderTwoTextOne" class="slider-header"
                 >Creating the future</span
               >
-              <span
-                id="imageSliderTwoTextTwo"
-                class="slider-header mb-3"
+              <span id="imageSliderTwoTextTwo" class="slider-header mb-3"
                 >with clients</span
               >
               <div
@@ -153,10 +155,10 @@
                 >01</span
               >
               <span id="slideTwo" class="slider-number me-3">02</span>
-              <span class="slider-number me-3" onclick="goToSlideThree()">03</span>
-              <span class="slider-number" onclick="goToSlideFour()"
-                >04</span
+              <span class="slider-number me-3" onclick="goToSlideThree()"
+                >03</span
               >
+              <span class="slider-number" onclick="goToSlideFour()">04</span>
             </div>
           </div>
         </div>
@@ -193,9 +195,7 @@
                 >02</span
               >
               <span id="slideThree" class="slider-number me-3">03</span>
-              <span class="slider-number" onclick="goToSlideFour()"
-                >04</span
-              >
+              <span class="slider-number" onclick="goToSlideFour()">04</span>
             </div>
           </div>
         </div>
@@ -422,7 +422,10 @@
               class="fw-img-container fw-img-container-seven ts-container"
               id="allGridCardSeven"
             >
-              <div class="featured-works-details h-100" onclick="goToTropicalShade()">
+              <div
+                class="featured-works-details h-100"
+                onclick="goToTropicalShade()"
+              >
                 <span class="featured-works-projects-subheading"
                   >Residential</span
                 >
@@ -464,7 +467,10 @@
               class="fw-img-container fw-img-container-three ts-container"
               id="residentsGridCardThree"
             >
-              <div class="featured-works-details h-100" onclick="goToTropicalShade()">
+              <div
+                class="featured-works-details h-100"
+                onclick="goToTropicalShade()"
+              >
                 <span class="featured-works-projects-subheading"
                   >Residential</span
                 >
@@ -684,10 +690,7 @@
           <div
             class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile quick-links-container"
           >
-            <span class="footer-link"
-              ><a href="./about.html">About Us</a></span
-            >
-            <span class="footer-link"><a href="./team.html">Our Team</a></span>
+            <span class="footer-link"><a href="./about.html">About Us</a></span>
             <span class="footer-link"
               ><a href="./contact.html">Contact Us</a></span
             >
