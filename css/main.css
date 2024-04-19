@@ -478,7 +478,7 @@ body {
 }
 
 .ts-container {
-  background: url(../images/shade/shade_14.jpg);
+  background: url(../images/shade/shade_10.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1309,7 +1309,7 @@ body {
 }
 
 .project-ts-container {
-  background: url(../images/shade/shade_14.jpg);
+  background: url(../images/shade/shade_10.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2781,8 +2781,8 @@ body {
 
 @-webkit-keyframes slide-in-bottom {
   0% {
-    -webkit-transform: translateY(1000px);
-    transform: translateY(1000px);
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
     opacity: 0;
   }
   100% {
@@ -2793,8 +2793,8 @@ body {
 }
 @keyframes slide-in-bottom {
   0% {
-    -webkit-transform: translateY(1000px);
-    transform: translateY(1000px);
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
     opacity: 0;
   }
   100% {
