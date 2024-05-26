@@ -2705,4 +2705,24 @@ function goToLinkedinPage() {
   window.open("https://www.linkedin.com/in/dahamthisula/", "_blank");
 }
 
-
+function sendEmail() {
+  if (document.getElementById('first_name').value && document.getElementById('last_name').value && document.getElementById('email_id').value &&
+    document.getElementById('contact_no').value && document.getElementById('message').value) {
+    var params = {
+      first_name: document.getElementById('first_name').value,
+      last_name: document.getElementById('last_name').value,
+      email_id: document.getElementById('email_id').value,
+      contact_no: document.getElementById('contact_no').value,
+      message: document.getElementById('message').value,
+    }
+    emailjs.send("service_svxkpzm", "template_ow9cgh3", params).then(function (res) {
+      if (res.status == 200) {
+        toastr.success('Message has been sent. We will get back to you.');
+      } else {
+        toastr.error('Message could not be sent!');
+      }
+    });
+  } else {
+    toastr.error('Please fill all fields');
+  }
+}

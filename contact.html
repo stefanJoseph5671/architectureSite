@@ -41,6 +41,12 @@
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
 
+    <!-- Toastr -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+      rel="stylesheet"
+    />
+
     <!-- Font Awesome Kit -->
     <script
       src="https://kit.fontawesome.com/b0e7cb6d16.js"
@@ -102,6 +108,7 @@
                 <div class="row">
                   <div class="col-md-12 col-sm-12 mb-4">
                     <textarea
+                      id="message"
                       class="form-control"
                       placeholder="Message (required)"
                       rows="4"
@@ -109,6 +116,7 @@
                   </div>
                   <div class="col-md-6 col-sm-12 mb-4">
                     <input
+                      id="first_name"
                       type="text"
                       class="form-control"
                       placeholder="First name (required)"
@@ -117,6 +125,7 @@
                   </div>
                   <div class="col-md-6 col-sm-12 mb-4">
                     <input
+                      id="last_name"
                       type="text"
                       class="form-control"
                       placeholder="Last name (required)"
@@ -125,7 +134,8 @@
                   </div>
                   <div class="col-md-6 col-sm-12 mb-4">
                     <input
-                      type="text"
+                      id="contact_no"
+                      type="number"
                       class="form-control"
                       placeholder="Contact Number (required)"
                       aria-label="Mobile"
@@ -133,6 +143,7 @@
                   </div>
                   <div class="col-md-6 col-sm-12 mb-4">
                     <input
+                      id="email_id"
                       type="email"
                       class="form-control"
                       placeholder="Email (required)"
@@ -140,7 +151,9 @@
                     />
                   </div>
                 </div>
-                <div class="send-message-btn">Send Message</div>
+                <div class="send-message-btn cursor-pointer" onclick="sendEmail()">
+                  Send Message
+                </div>
               </form>
             </div>
           </div>
@@ -212,8 +225,7 @@
         </div>
       </div>
 
-      <div class="hash-container hash-bg">
-      </div>
+      <div class="hash-container hash-bg"></div>
 
       <div class="footer-container">
         <div class="footer-social-row">
@@ -258,9 +270,7 @@
           <div
             class="d-flex flex-column flex-col-row-mobile flex-row-wrap-mobile quick-links-container"
           >
-            <span class="footer-link"
-              ><a href="./about.html">About Us</a></span
-            >
+            <span class="footer-link"><a href="./about.html">About Us</a></span>
             <span class="footer-link"
               ><a href="./contact.html">Contact Us</a></span
             >
@@ -314,6 +324,22 @@
 
     <!-- Masonry JS -->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- Toatr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "499uNMo1GoJTohM5Q",
+        });
+      })();
+    </script>
 
     <!-- Magnific Popup core JS file -->
     <script
