@@ -2715,7 +2715,7 @@ function sendEmail() {
       contact_no: document.getElementById('contact_no').value,
       message: document.getElementById('message').value,
     }
-    emailjs.send("service_svxkpzm", "template_ow9cgh3", params).then(function (res) {
+    emailjs.send("service_w0nik4f", "template_67vqtdh", params).then(function (res) {
       if (res.status == 200) {
         toastr.success('Message has been sent. We will get back to you.');
       } else {
