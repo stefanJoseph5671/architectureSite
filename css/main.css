@@ -742,7 +742,7 @@ body {
 }
 
 .footer-logo {
-  width: 200px;
+  width: 25%;
   margin-bottom: 32px;
   image-rendering: auto;
   image-rendering: crisp-edges;
@@ -869,11 +869,11 @@ body {
 }
 
 .practice-image-container {
-  padding: 500px 30px 70px 260px;
+  padding: 460px 130px 30px 170px;
 }
 
 .practice-image-img {
-  width: 100%;
+  width: 135%;
 }
 
 .practice-detail-container {
@@ -1976,7 +1976,6 @@ body {
 
 /* Mobile CSS */
 @media (min-width: 320px) and (max-width: 767px) {
-
   .featured-all-grid {
     margin-bottom: -20px;
   }
@@ -1995,7 +1994,11 @@ body {
   }
 
   .practice-image-container {
-    padding: 40px;
+    padding: 10px;
+  }
+
+  .practice-image-img {
+    width: 100%;
   }
 
   .featured-div {
@@ -2470,12 +2473,16 @@ body {
   .coming-soon-heading {
     text-align: center;
   }
+
+  .footer-logo {
+    width: 100%;
+  }
 }
 
 /* Laptop CSS */
 @media (min-width: 768px) and (max-width: 1550px) {
   .practice-image-container {
-    padding: 500px 30px 70px 50px;
+    padding: 490px 140px 70px 20px;
   }
 
   .home-detail-container {
@@ -2813,7 +2820,6 @@ body {
   outline: none !important;
 }
 
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -2821,6 +2827,6 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
